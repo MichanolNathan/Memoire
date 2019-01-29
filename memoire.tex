@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper, twoside,openright]{report}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage[T1]{fontenc}
+\usepackage[top=2.5cm, bottom=3.5cm, left=3cm, right=3cm]{geometry}
+\usepackage{etoolbox}
+\usepackage{subfiles}
+
+
+\newtoggle{maturitydraft}
+
+\toggletrue{maturitydraft}
+%\togglefalse{maturitydraft}
+
+\iftoggle{maturitydraft}{%
+	\usepackage[draft,markup=default,authormarkup=brackets,authormarkupposition=left]{changes}
+}{%
+	\usepackage[final,markup=default,authormarkup=brackets,authormarkupposition=left]{changes}
+}
+%% Handle changes made when reading the report and correct it
+
+
+\definechangesauthor[name=Rapha\"el MARTIN, color=red]{RMA}
+\definechangesauthor[name=Laurent COUNIL, color=orange]{LCO}
+\setremarkmarkup{\\(\textbf{Remark:}\textit{#2})}
+
+
+
+\begin{document}
+\subfile{Introduction}
+\tableofcontents
+%\subfile{remerciements}
+\subfile{etat_art}
+\subfile{Implementation}
+%\subfile{chapitre_3}
+%\subfile{conclusion}
+%\subfile{webographie}
+%\listoffigures
+\end{document}
