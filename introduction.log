@@ -1,9 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  13 FEB 2019 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  13 FEB 2019 14:34
 entering extended mode
-**./memoire.tex
-(memoire.tex
+**./introduction.tex
+(introduction.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+
+("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfiles
+.cls"
+Document Class: subfiles 2012/05/23 Federico Garcia
+
+("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.st
+y"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `memoire.tex'
+(memoire.tex
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -59,7 +73,7 @@ Package babel Info: Making ; an active character on input line 412.
 Package babel Info: Making ! an active character on input line 413.
 Package babel Info: Making ? an active character on input line 414.
 \FBguill@level=\count91
-\FB@everypar=\toks14
+\FB@everypar=\toks16
 \FB@Mht=\dimen104
 \mc@charclass=\count92
 \mc@charfam=\count93
@@ -79,13 +93,13 @@ Package babel Info: Making ? an active character on input line 414.
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
 ty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks17
 )
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
 "
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
  ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
@@ -401,9 +415,9 @@ Now handling font encoding U ...
 y"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count98
-\float@exts=\toks18
+\float@exts=\toks20
 \float@box=\box26
-\@float@everytoks=\toks19
+\@float@everytoks=\toks21
 \@floatcapt=\box27
 )
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placeins
@@ -439,7 +453,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen108
 \extrarowheight=\dimen109
-\NC@list=\toks20
+\NC@list=\toks22
 \extratabsurround=\skip48
 \backup@length=\skip49
 )
@@ -488,7 +502,6 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
@@ -500,6 +513,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.
 sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
 )
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
 s.sty"
@@ -576,7 +594,7 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@target=\dimen117
 \TX@delta=\dimen118
 \TX@cols=\count109
-\TX@ftn=\toks21
+\TX@ftn=\toks23
 )
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
@@ -598,7 +616,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen124
 \Gm@layouthoffset=\dimen125
 \Gm@layoutvoffset=\dimen126
-\Gm@dimlist=\toks22
+\Gm@dimlist=\toks24
 
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
 .cfg"))
@@ -610,14 +628,7 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfiles
 .sty"
 Package: subfiles 2012/05/23 Federico Garcia
-
-("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.st
-y"
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks23
-\verbatim@line=\toks24
-\verbatim@in@stream=\read1
-))
+)
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\changes\changes.s
 ty"
 Package: changes 2015/04/27 v2.0.4 changes package
@@ -721,26 +732,26 @@ Package: truncate 2001/08/20  ver 3.6
 \c@Changes@AddCountLCO=\count127
 \c@Changes@DeleteCountLCO=\count128
 \c@Changes@ReplaceCountLCO=\count129
- (memoire.aux)
-\openout1 = `memoire.aux'.
+)) (introduction.aux)
+\openout1 = `introduction.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Info: Redefining \degres on input line 35.
-LaTeX Info: Redefining \dots on input line 35.
-LaTeX Info: Redefining \up on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Info: Redefining \degres on input line 2.
+LaTeX Info: Redefining \dots on input line 2.
+LaTeX Info: Redefining \up on input line 2.
 
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
@@ -773,7 +784,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 2.
 
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.
 sty"
@@ -785,19 +796,19 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
- (memoire.out) (memoire.out)
+LaTeX Info: Redefining \ref on input line 2.
+LaTeX Info: Redefining \pageref on input line 2.
+LaTeX Info: Redefining \nameref on input line 2.
+ (introduction.out) (introduction.out)
 \@outlinefile=\write3
-\openout3 = `memoire.out'.
+\openout3 = `introduction.out'.
 
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
@@ -827,72 +838,36 @@ LaTeX Info: Redefining \nameref on input line 35.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(Introduction.tex) [1
+\Changes@OutFile=\write4
+\openout4 = `introduction.soc'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 12.
+[1
 
 
-{C:/Users/nathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{C:/Users/nathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 12.
 
-] (memoire.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-)
-\tf@toc=\write4
-\openout4 = `memoire.toc'.
-
- (etat_art.tex [3] [4
-
-]
-Chapitre 1.
-<img/hierarchical_clustering.png, id=103, 264.23718pt x 268.00125pt>
-File: img/hierarchical_clustering.png Graphic file (type png)
-<use img/hierarchical_clustering.png>
-Package pdftex.def Info: img/hierarchical_clustering.png  used on input line 9.
-
-(pdftex.def)             Requested size: 211.39001pt x 214.40128pt.
-[5] [6 <./img/hierarchical_clustering.png>]) (Implementation.tex [7] [8
-
-]
-Chapitre 2.
-) (memoire.bbl [9] [10
-
-])
-\Changes@OutFile=\write5
-\openout5 = `memoire.soc'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
- (memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
-Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 4EF8915CE54BB6531A3F691900A264A2;1000.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+(introduction.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12.
+Package rerunfilecheck Info: File `introduction.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8907 strings out of 493305
- 130389 string characters out of 3129367
- 239212 words of memory out of 3000000
- 12269 multiletter control sequences out of 15000+200000
- 14015 words of font info for 34 fonts, out of 3000000 for 9000
+ 8795 strings out of 493305
+ 129145 string characters out of 3129367
+ 236225 words of memory out of 3000000
+ 12219 multiletter control sequences out of 15000+200000
+ 6354 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,8n,39p,2013b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,5n,41p,531b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecti1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\eccc1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\nathan\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\nathan\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\
-nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
-
-Output written on memoire.pdf (11 pages, 158793 bytes).
+\ecrm1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecbx2488.pk>
+Output written on introduction.pdf (1 page, 19548 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 67 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
