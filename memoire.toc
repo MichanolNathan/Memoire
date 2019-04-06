@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {1}Etat de l'art}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}Les types de clustering}{5}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Clustering hi\IeC {\'e}rarchique}{5}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Clustering partionn\IeC {\'e}}{7}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}Le clustering par partionnement}{7}{subsection.1.1.2}
 \contentsline {section}{\numberline {1.2}Les types de clusters}{7}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Well-Separated}{7}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Prototype-Based}{7}{subsection.1.2.2}
