@@ -12,6 +12,12 @@ G.~Cleuziou.
   de règles et la recherche d’information.
 \newblock {\em Université d’Orléans}, 2004.
 
+\bibitem{ref10}
+V.~Georgescu, N.~Desassis, S.~Soubeyrand, A.~Kretzschmar, and R.~Senoussi.
+\newblock Classification basée sur des mélanges de modèles hiérarchiques
+  bivariés.
+\newblock {\em 42èmes Journées de Statistique}, 2010.
+
 \bibitem{ref7}
 M.~Santini.
 \newblock Advantages and disadvantages of k-means and hierarchical clustering
@@ -23,6 +29,11 @@ D.~Sonagara1 and S.~Badheka2.
 \newblock Comparison of basic clustering algorithms.
 \newblock {\em International Journal of Computer Science and Mobile Computing},
   2014.
+
+\bibitem{ref11}
+R.~E. Stcpp.
+\newblock Concepts in conceptual clustering.
+\newblock {\em University of Illinois at Urbana-Champaign}.
 
 \bibitem{ref4}
 P.-N. Tan, M.~Steinbach, A.~Karpatne, and V.~Kumar.

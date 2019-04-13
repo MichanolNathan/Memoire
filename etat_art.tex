@@ -1,9 +1,10 @@
 \documentclass[memoire.tex]{subfiles}
 \begin{document}
-\chapter{Etat de l'art}
-Le clustering est le regroupement de plusieurs données similaires en un seul groupe appelé cluster. L'analyse de cluster permet ainsi d'identifier des groupes de données relativement homogènes sur la base de leur similarité pour des caractéristiques données ce qui dans notre cas peut par exemple être le type d'emploi occuper en fonction des filières suivies par d'anciens étudiants. Cependant analyser différents profils d'individus peut représenter des difficultés techniques importantes, c'est pourquoi cette première section du document présentera les différentes solutions possibles pouvant apporter une réponse à cette difficulté de catégorisation des parcours.
+\chapter{Etat de l'art du clustering}
+Le Terme clustering fait référence au concept de classification non supervisée faisant elle même d'une plus grande famille qu'est l'apprentissage non supervisé. A l'inverse de l'apprentissage supervisé qui nécessite des données déjà segmentées, le clustering vise quant à lui à déterminer une segmentation du jeu de données étudié. Dans ce cas, l'intervention humaine n'est pas nécessaire étant donné  que l'ordinateur détermine les différentes segmentations sans l'apport de variables cibles fournies à l'algorithme.
+L'analyse de cluster permet donc d'identifier des groupes de données relativement homogènes sur la base de leur similarité pour des caractéristiques données ce qui dans notre cas peut par exemple être le type d'emploi occuper en fonction des filières suivies par d'anciens étudiants. Cependant analyser différents profils d'individus peut représenter des difficultés techniques importantes, c'est pourquoi cette première section du document présentera les différentes solutions possibles pouvant apporter une réponse à cette difficulté de catégorisation des parcours.
 \section{La préparation des données}
-Lorsqu'une segmentation basée sur des clusters est utilisée, il existe plusieurs formes de préparations de données pouvant aider à la formation des différents segments.
+Lorsqu'une segmentation basée sur des clusters est utilisée, il existe plusieurs formes de préparations de données pouvant aider à la formation des différents segments. 
 \subsection{La Transformation des variables}
 Il existe deux types de transformation : \begin{itemize}
 \item La modification de la portée des variables connue en tant que la standardisation des variables.
@@ -16,7 +17,7 @@ L'utilisation de la standardisation est motivée par le fait que l'analyse de cl
 \end{itemize}
 La modification de la distribution quant à elle est motivée par les mêmes problématiques que dans d'autres secteurs ayant recours aux statistiques qui sont d'extrêmes variations par rapport à ce qui est considéré "normal" dans le cas étudié. Celles-ci entrainent des analyses pouvant induire en erreur. Par conséquent lorsque le poids des variables est modifié le but est d'identifier et supprimer leur longue traine qui correspond à un nombre d'entre elles possédant des valeurs très supérieures ou inférieures à la moyenne.
 
-\subsection{La mesure de la distance}
+\section{La mesure de la distance}
 Le choix de la méthode de mesure de distance est une étape critique pour les méthodes de clustering, son choix ayant une très forte influence sur le résultat final. En effet, la méthodologie choisie définira comment les similarités de deux éléments sont calculés et influera par conséquent sur la forme des clusters également. Les deux méthodes les plus communes de mesure sont la distance Euclidienne illustrée par la formule suivante (figure1.1) : 
 
 	\begin{figure}[h!]
@@ -50,8 +51,13 @@ Parmis les différents types de clustering existant \cite{ref4}, le premier étu
 \subsection{Le clustering par partionnement}
 Le clustering par partionnement contrairement au clustering hiérarchique qui utilise un arbre afin de représenter les différents groupe de données va classifier les différents objets en groupe en fonction de leur similarités. Cependant ce mode de fonctionnement pause un problème concernant le choix de la "bonne représentation" en fonction d'un critère choisi, le but devient alors de recherche une représentation optimale de son critère à travers plusieurs itérations.\cite{ref8} L'algorithme le plus utilisé pour ce type de méthode est K-means qui sera présenté dans la suite de ce document.
 
+ 
+\section{Les autres types de clustering}
+\subsection{Le clustering basé sur des mélanges de modèles}
+Cette approche est adoptée lors de l'utilisation d'apprentissage automatique et au traitement de données manquantes ou cachées, par rapport à d'autes approches basées sur des métriques permet de déterminer le nombre de classes nécessaires  ou encore de déterminer le degré d'incertitude \cite{ref10}. Les limites de cette méthode résident principalement dans les limitations entrainées par le type de données utilisées et qu'il est nécessaire de formuler des hypothèses sur la distribution des observations rarement vérifiables dans la réalité.\cite{ref8}
 
-\subsection{Autre méthodes de clustering}
+\subsection{Le clustering conceptuel}
+Le clustering conceptuel est paradigme d'apprentissage non supervisé ayant fait son apparition durant les années 1980. Cette méthode se différencie du clustering de données classique par le fait qu'elle génère une description de concept pour chaque classes générées. Un autre facteur de différenciation est le fait que les phases de clusterisation et de caractérisation des données ne sont pas indépendantes.\cite{ref11}
 
 
 \section{Les types de clusters}
@@ -60,17 +66,25 @@ Le but du clustering étant de trouver des groupes d'objets présentant des simi
 définies en fonction de l'objectif recherché. Il existe toutefois une multitude de types de cluster qui seront étudiés au sein de cette section chacun avec ses avantages et inconvénients en fonction de notre cas avant de statuer sur le type qui sera utilisé pour le reste de ce document.
 
 \subsection{Well-Separated}
-Un cluster "well-separated" est un regroupement de points de telle façon à ce que tous les points faisant parti d'un même cluster présentent de fortes similarités entre eux comparés aux points d'un cluster extérieur.
-\subsection{Prototype-Based}
+Un cluster "well-separated" est un regroupement de points de telle façon à ce que tous les points faisant parti d'un même cluster présentent de fortes similarités entre eux comparés aux points d'un cluster extérieur(figure 1.3). Si la population de cluster est suffisament bien compartimentée, ce type de cluster permet de faire fonctionner n'importe quelle méthode de clustering de façon efficace.
+	\begin{figure}[h!]
+		\centerline{\includegraphics[scale=0.8]{img/well_separated.png}}
+		\caption{Well separated clusters}
+	\end{figure}
 
+\subsection{Prototype-Based}
 Un prototype-based cluster est un cluster dont les points qui le constitue sont plus proches ou similaire du prototype définissant le cluster traité que de tout autre prototype définissant d'autres clusters.
 
 \subsection{Graph-Based}
-Le graph-based cluster est utilisé dans les cas ou les données peuvent être représenté sous forme de graphe dont les nœuds sont des objets et les liens représentent les connexions entre ceux-ci. Dans cette situation un cluster peut être défini comme un composant connecté,  c'est-à-dire un groupe d'objets liés les uns aux autres au sein du même groupe.
+Le graph-based cluster est utilisé dans les cas ou les données peuvent être représenté sous forme de graphe dont les nœuds sont des objets et les liens représentent les connexions entre ceux-ci. Dans cette situation un cluster peut être défini comme un composant connecté,  c'est-à-dire un groupe d'objets liés les uns aux autres au sein du même groupe. En outre ce type de classification permet de visualiser facilement d'importants jeux de données.
 
+\newpage
 \subsection{Density-Based}
-A travers l'utilisation d'un density-based cluster, le but est de détecter les zones ou les points formant des clusters sont concentrés et celles ou les points sont séparés par des zones vides ou par des zones contenant très peu de points. Les points ne faisant par partie d'un agrégat sont ici classés comme du bruit.
-
+A travers l'utilisation d'un density-based cluster, le but est de détecter les zones ou les points formant des clusters sont concentrés et celles ou les points sont séparés par des zones vides ou par des zones contenant très peu de points (figure 1.4). Les points ne faisant par partie d'un agrégat sont ici considérés comme du bruit. Ce type de définition est utilisée lorsque les clusters s'entrecroisent ou sont irréguliers.\cite{ref4} Il est également possible d'avoir recours à ce type de classification lorsque du bruit est présent, celui-ci peut former des ponts entre les clusters lorsqu'un autre type de classification est utilisée.
+	\begin{figure}[h!]
+		\centerline{\includegraphics[scale=0.8]{img/density_cluster.png}}
+		\caption{Density based clusters}
+	\end{figure}
 
 \newpage
 \section{Les algorithmes}
