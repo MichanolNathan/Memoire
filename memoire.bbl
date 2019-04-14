@@ -24,6 +24,12 @@ M.~Santini.
   (unsupervised learning).
 \newblock {\em Machine Learning for Language Technology}, 2016.
 
+\bibitem{ref12}
+E.~Schubert, J.~Sander, M.~Ester, H.-P. Kriegel, and X.~Xu.
+\newblock Dbscan revisited, revisited: Why and how you should (still) use
+  dbscan.
+\newblock {\em ACM Trans. Database Syst. 42, 3, Article 19}, 2017.
+
 \bibitem{ref5}
 D.~Sonagara1 and S.~Badheka2.
 \newblock Comparison of basic clustering algorithms.

@@ -91,13 +91,30 @@ A travers l'utilisation d'un density-based cluster, le but est de détecter les 
 Dans cette section seront décrit les principaux algorithmes utilisés lorsque des techniques de clustering sont employées. Les avantages et inconvénients de chacun seront présentés en fonction du cas présenté dans l'introduction.
 \subsection{K-means}
 
-L'algorithme K-means est l'algorithme le plus populaire, celui-ci recherche la meilleure division possible au sein d'un jeux de données \cite{ref5} en plus de sa facilité d'implémentation. Cependant celui-ci impose de savoir le nombre de clusters souhaités et par conséquent une bonne connaissance des données utilisées.
+L'algorithme K-means est l'algorithme le plus populaire, celui-ci peut être utiliser dans plusieurs domaines tels que : 
+\begin{itemize}
+\item Utilisation du clustering dans un contexte de Data Mining.
+\item Clustering de documents qui dans notre cas seraient les CV d'anciens étudiants.
+\item La segmentation d'un jeu de données en fonction de critères.
+\end{itemize}
+Celui-ci recherche la meilleure division possible au sein d'un jeux de données \cite{ref5} et possède comme avantage une certaine facilité d'implémentation. Cependant, il impose de savoir le nombre de clusters \textbf{K} souhaités et par conséquent une bonne connaissance des données utilisées. L'une des solutions possibles, lorsqu'un grand jeu de données est utilisé afin de déterminer le nombre de cluster voulu est de lancer l'algorithme avec différentes valeurs et de calculer ensuite la variance entre les résultats obtenus. Celle-ci représente ainsi la somme des distances entre chaque \textit{centroïde}.\\
+K-means fonctionne de la façon suivante : 
+\begin{itemize}
+\item Choix d'un nombre de clusters K
+\item Affectation de chaque point au groupe dont il est le plus proche.
+\item Itération jusqu'à ce qu'il n'y ait plus de changements au niveau des centroïdes, c'est à dire que ceux-ci ne bougent plus lors des itérations.
+\end{itemize}
 
 \subsection{Agglomerative Hierarchical Clustering}
 
 Les techniques de clustering agglomératives partent d'un ensemble de points formant un cluster, par la suite, les deux clusters les plus proches sont fusionnés successivement jusqu'à ce qu'il n'y est plus qu'un seul cluster restant. \cite{ref4}
-
+\newpage
 \subsection{DBSCAN}
-
-DBSCAN est un algorithme basé sur le partitionnement de données, celui-ci utilise deux principaux paramètres qui sont la distance et le nombre de points minimum devant se trouver dans un rayon donné afin qu'ils soient considérés comme un cluster.
+DBSCAN est un algorithme basé sur le partitionnement de données, celui-ci utilise deux principaux paramètres qui sont la distance minimale entre deux points et le nombre de points minimum devant se trouver dans un rayon donné afin qu'ils soient considérés comme un cluster\cite{ref12}. Le choix d'une bonne mesure de la distance reste critique comme dans toute autre méthode de clustering. En effet, si la valeur choisie est trop petite, une partie des données traites risque d'être considérer des \textit {outliers} c'est à dire des observations peu fréquentes sortant de la norme.\\
+l'agorithme DBSCAN sert dans des situations ou l'on cherche à déterminer des structures au sein d'un jeu de données, celui-ci peut être exprimer en peudo-code.(figure 1.5) Du à sa popularité, cet algorithme est souvent directement importé à travers des libraires Python ou R.
+	\begin{figure}[h!]
+		\centerline{\includegraphics[scale=0.8]{img/dbscan.png}}
+		\caption{Algorithme DBSCAN}
+	\end{figure}
+Cet algorithme offre comme avantages le fait qu'il n'a pas besoin de plus de paramètre que la distance, ici marquée \textit{eps} et le nombre de moins minimum afin de constituer un cluster représenter ici par \textit{minpts}. De plus, celui-ci n'est pas très sensible à l'ordre des données pour son traitement. Cependant, la qualité du résultat est grandement lié au choix d'une bonne mesure de distance. En outre, un degré de compréhension de l'échelle appliquée et des données étudiées est nécessaire afin de pouvoir choisir une mesure de distance pertinente.
 \end{document}
