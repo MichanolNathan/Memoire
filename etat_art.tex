@@ -17,12 +17,12 @@ L'utilisation de la standardisation est motivée par le fait que l'analyse de cl
 \end{itemize}
 La modification de la distribution quant à elle est motivée par les mêmes problématiques que dans d'autres secteurs ayant recours aux statistiques qui sont d'extrêmes variations par rapport à ce qui est considéré "normal" dans le cas étudié. Celles-ci entrainent des analyses pouvant induire en erreur. Par conséquent lorsque le poids des variables est modifié le but est d'identifier et supprimer leur longue traine qui correspond à un nombre d'entre elles possédant des valeurs très supérieures ou inférieures à la moyenne.
 
-\section{La mesure de la distance}
+\section{La mesure de distance}
 Le choix de la méthode de mesure de distance est une étape critique pour les méthodes de clustering, son choix ayant une très forte influence sur le résultat final. En effet, la méthodologie choisie définira comment les similarités de deux éléments sont calculés et influera par conséquent sur la forme des clusters également. Les deux méthodes les plus communes de mesure sont la distance Euclidienne illustrée par la formule suivante (figure1.1) : 
 
 	\begin{figure}[h!]
 		\centerline{\includegraphics[scale=0.8]{img/euclidienne_distance.png}}
-		\caption{Exemple de dendrogramme}
+		\caption{Distance Euclidienne}
 	\end{figure}
 Dans cette méthode, la distance est calculée en effectuant le carré de la somme des carrés des distances entre les variables répondant à un critère donné.\\
 La seconde méthode communément utilisée est la distance de Manhattan, appelée également "taxi-distance". Celle-ci, pour un point A et B de coordonnées respectives ($X_{a}$,$Y_{a}$) et ($X_{b}$,$Y_{b}$) est définie de la façon  suivante :\\
@@ -41,17 +41,27 @@ Parmis les différents types de clustering existant \cite{ref4}, le premier étu
 \item les paliers sont indexés en fonction de l'ordre de construction.
 \end{itemize}
 
- Tandis que la classification double est une technique d'exploration de données non-supervisée permettant de segmenter simultanément les lignes et les colonnes d'une matrice. L'autre avantage du clustering hiérarchique est sa facilité d'implémentation dans des algorithmes tel que K-Means en plus de fournir une représentation comme dit précédemment. Afin d'établir un arbre hiérarchique, le clustering hiérarchique à recours à deux méthodes qui sont la méthode agglomérative et la méthode divisive. Un regroupement agglomératif traite chaque objet comme un seul élément qui à chaque étape de l'algorithme est fusionné avec un second objet présentant le plus de similarités en un nouveau cluster de plus grande taille. Ce processus est répété jusqu'à que ce que tous les points soient membre d'un seul et même cluster. À l'inverse d'un regroupement agglomératif qui utilise une approche "bottom-up", les algorithmes divisifs utilisent une approche "top-down". Ces algorithmes débutent ainsi leur traitement à partir de la racine de l'arbre ou tous les objets sont regroupés en un seul cluster. À chaque itération les cluster les plus hétérogènes sont divisés en deux jusqu'à ce que l'ensemble des objets fassent partie de leur propre cluster. Toutefois sa complexité le rend inefficace sur de larges jeux de données \cite{ref7}. De plus, la première injection de données ainsi que l'ordre de celles-ci  à un fort impact sur le résultat final. En outre, il n'est pas possible de défaire ou modifier les étapes précédentes du traitement, c'est-à-dire qu'une fois une instance assignées à un cluster, il n'est plus possible de la déplacée pour effectuer d'éventuelles modifications ou corrections \cite{ref5}. Dans notre cas la base de CV utilisée n'étant pas de taille importante le clustering hiérarchique reste une méthode applicable. Cependant la problématique à résoudre est la gestion des filières intégrant plusieurs domaines tel que la filière MIASHS de Nanterre qui possède une dimension mathématique et une informatique. Les données étant représentées sous forme d'arbre cela entrainerait une répétition au niveau des résultats.
+ Tandis que la classification double est une technique d'exploration de données non-supervisée permettant de segmenter simultanément les lignes et les colonnes d'une matrice. L'autre avantage du clustering hiérarchique est sa facilité d'implémentation dans des algorithmes tel que K-Means en plus de fournir une représentation comme dit précédemment. Afin d'établir un arbre hiérarchique, le clustering hiérarchique à recours à deux méthodes qui sont la méthode agglomérative et la méthode divisive. Un regroupement agglomératif traite chaque objet comme un seul élément qui à chaque étape de l'algorithme est fusionné avec un second objet présentant le plus de similarités en un nouveau cluster de plus grande taille. Ce processus est répété jusqu'à que ce que tous les points soient membre d'un seul et même cluster. À l'inverse d'un regroupement agglomératif qui utilise une approche "bottom-up", les algorithmes divisifs utilisent une approche "top-down". Ces algorithmes débutent ainsi leur traitement à partir de la racine de l'arbre ou tous les objets sont regroupés en un seul cluster. À chaque itération les cluster les plus hétérogènes sont divisés en deux jusqu'à ce que l'ensemble des objets fassent partie de leur propre cluster. Toutefois sa complexité le rend inefficace sur de larges jeux de données \cite{ref7}. De plus, la première injection de données ainsi que l'ordre de celles-ci  à un fort impact sur le résultat final. En outre, il n'est pas possible de défaire ou modifier les étapes précédentes du traitement, c'est-à-dire qu'une fois une instance assignées à un cluster, il n'est plus possible de la déplacée pour effectuer d'éventuelles modifications ou corrections \cite{ref5}. Dans notre cas la base de CV utilisée n'étant pas de taille importante le clustering hiérarchique reste une méthode applicable. Cependant la problématique à résoudre est la gestion des filières intégrant plusieurs domaines tel que la filière MIASHS de Nanterre qui possède une dimension mathématique et une informatique. Les données étant représentées sous \textit{forme d'arbre cela entrainerait une répétition au niveau des résultats.
 	\begin{figure}[h!]
 		\centerline{\includegraphics[scale=0.8]{img/hierarchical_clustering.png}}
 		\caption{Exemple de dendrogramme}
-	\end{figure}
+	\end{figure}}
 	
 \newpage
-\subsection{Le clustering par partionnement}
-Le clustering par partionnement contrairement au clustering hiérarchique qui utilise un arbre afin de représenter les différents groupe de données va classifier les différents objets en groupe en fonction de leur similarités. Cependant ce mode de fonctionnement pause un problème concernant le choix de la "bonne représentation" en fonction d'un critère choisi, le but devient alors de recherche une représentation optimale de son critère à travers plusieurs itérations.\cite{ref8} L'algorithme le plus utilisé pour ce type de méthode est K-means qui sera présenté dans la suite de ce document.
+\subsection{Le clustering par partitionnement}
+Le clustering par partionnement contrairement au clustering hiérarchique qui utilise un arbre afin de représenter les différents groupe de données va classifier les différents objets en groupe en fonction de leur similarités. Cependant ce mode de fonctionnement pause un problème concernant le choix de la "bonne représentation" en fonction d'un critère choisi, le but devient alors de recherche une représentation optimale de son critère à travers plusieurs itérations.\cite{ref8} L'algorithme le plus utilisé pour ce type de méthode est K-means qui sera présenté dans la suite de ce document. Dans le cas du clustering par partitionnement, il existe une sous-catégorie nommée le partitionnement flou. Celle-ci à recours à une autre version de l'algorithme k-means appelée \textit{Fuzzy k-means} ou k-moyennes flou. Cet algorithme cherche à minimiser la fonction illustrée par la figure 1.3.
+	\begin{figure}[h!]
+		\centerline{\includegraphics[scale=0.8]{img/fuzzy_algo.png}}
+		\caption{Fonction objectif de Fuzzy k-means}
+	\end{figure}
+Dans la figure ci-dessus, \begin{itemize}
+\item $u_{ij}$ est le degré selon lequel une observation $x_{i}$ appartient à un cluster $c_{j}$.
+\item $\mu_j$ est le centre d'un cluster $j$.
+\item $m$ est le "fuzzifier".\\
+Contrairement aux méthodes de clustering dites dures, lorsque l'on a recours au clustering flou, il est possible que des données fassent partie de plusieurs clusters. De plus, l'appartenance d'un object à un cluster est ici décidé par la proximité entre le centre du cluster traité et l'objet en question. \cite{ref13} Cet algorithme reste toutefois soumis aux mêmes restrictions que l'agorithme k-means classique dans le fait qu'il requiert de spécifier le nombre de clusters souhaités.
+\end{itemize}
 
- 
+
 \section{Les autres types de clustering}
 \subsection{Le clustering basé sur des mélanges de modèles}
 Cette approche est adoptée lors de l'utilisation d'apprentissage automatique et au traitement de données manquantes ou cachées, par rapport à d'autes approches basées sur des métriques permet de déterminer le nombre de classes nécessaires  ou encore de déterminer le degré d'incertitude \cite{ref10}. Les limites de cette méthode résident principalement dans les limitations entrainées par le type de données utilisées et qu'il est nécessaire de formuler des hypothèses sur la distribution des observations rarement vérifiables dans la réalité.\cite{ref8}

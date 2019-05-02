@@ -2,17 +2,17 @@
 \contentsline {chapter}{\numberline {1}Etat de l'art du clustering}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}La pr\IeC {\'e}paration des donn\IeC {\'e}es}{5}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}La Transformation des variables}{5}{subsection.1.1.1}
-\contentsline {section}{\numberline {1.2}La mesure de la distance}{6}{section.1.2}
+\contentsline {section}{\numberline {1.2}La mesure de distance}{6}{section.1.2}
 \contentsline {section}{\numberline {1.3}Les m\IeC {\'e}thodes de clustering}{7}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Le clustering hi\IeC {\'e}rarchique}{7}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Le clustering par partionnement}{8}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Les autres types de clustering}{8}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Le clustering bas\IeC {\'e} sur des m\IeC {\'e}langes de mod\IeC {\`e}les}{8}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Le clustering conceptuel}{8}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.3.2}Le clustering par partitionnement}{8}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Les autres types de clustering}{9}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Le clustering bas\IeC {\'e} sur des m\IeC {\'e}langes de mod\IeC {\`e}les}{9}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Le clustering conceptuel}{9}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Les types de clusters}{9}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Well-Separated}{9}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Prototype-Based}{9}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Graph-Based}{9}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.3}Graph-Based}{10}{subsection.1.5.3}
 \contentsline {subsection}{\numberline {1.5.4}Density-Based}{11}{subsection.1.5.4}
 \contentsline {section}{\numberline {1.6}Les algorithmes}{12}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}K-means}{12}{subsection.1.6.1}
