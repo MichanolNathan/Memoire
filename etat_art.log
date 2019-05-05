@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  21 APR 2019 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 MAY 2019 15:00
 entering extended mode
 **./etat_art.tex
 (etat_art.tex
@@ -906,48 +906,63 @@ LaTeX Warning: Citation `ref8' on page 5 undefined on input line 67.
 
 LaTeX Warning: Citation `ref11' on page 5 undefined on input line 70.
 
-<img/well_separated.png, id=117, 264.99pt x 247.67531pt>
+
+LaTeX Warning: Citation `ref8' on page 5 undefined on input line 72.
+
+
+LaTeX Warning: Citation `ref14' on page 5 undefined on input line 73.
+
+<img/cobweb.png, id=117, 654.19406pt x 258.9675pt>
+File: img/cobweb.png Graphic file (type png)
+<use img/cobweb.png>
+Package pdftex.def Info: img/cobweb.png  used on input line 75.
+(pdftex.def)             Requested size: 457.93272pt x 181.27599pt.
+[5 <./img/cobweb.png>]
+<img/well_separated.png, id=123, 264.99pt x 247.67531pt>
 File: img/well_separated.png Graphic file (type png)
 <use img/well_separated.png>
-Package pdftex.def Info: img/well_separated.png  used on input line 81.
+Package pdftex.def Info: img/well_separated.png  used on input line 87.
 (pdftex.def)             Requested size: 211.99228pt x 198.1405pt.
+ [6 <./img/well_separated.png>] [7]
+<img/kruskal.png, id=136, 408.02437pt x 221.32687pt>
+File: img/kruskal.png Graphic file (type png)
+<use img/kruskal.png>
+Package pdftex.def Info: img/kruskal.png  used on input line 104.
+(pdftex.def)             Requested size: 326.41994pt x 177.06172pt.
+ [8 <./img/kruskal.png>]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation `ref4' on page 9 undefined on input line 109.
 
-[5] [6 <./img/well_separated.png>]
-
-LaTeX Warning: Citation `ref4' on page 7 undefined on input line 93.
-
-<img/density_cluster.png, id=128, 324.46219pt x 298.11375pt>
+<img/density_cluster.png, id=143, 324.46219pt x 298.11375pt>
 File: img/density_cluster.png Graphic file (type png)
 <use img/density_cluster.png>
-Package pdftex.def Info: img/density_cluster.png  used on input line 95.
+Package pdftex.def Info: img/density_cluster.png  used on input line 111.
 (pdftex.def)             Requested size: 259.57008pt x 238.49132pt.
-[7 <./img/density_cluster.png>]
+[9 <./img/density_cluster.png>]
 
-LaTeX Warning: Citation `ref5' on page 8 undefined on input line 110.
+LaTeX Warning: Citation `ref5' on page 10 undefined on input line 126.
 
 
-LaTeX Warning: Citation `ref4' on page 8 undefined on input line 120.
+LaTeX Warning: Citation `ref4' on page 10 undefined on input line 136.
 
-[8]
+[10]
 
-LaTeX Warning: Citation `ref12' on page 9 undefined on input line 123.
+LaTeX Warning: Citation `ref12' on page 11 undefined on input line 139.
 
-<img/dbscan.png, id=140, 487.8225pt x 472.01344pt>
+<img/dbscan.png, id=154, 487.8225pt x 472.01344pt>
 File: img/dbscan.png Graphic file (type png)
 <use img/dbscan.png>
-Package pdftex.def Info: img/dbscan.png  used on input line 126.
+Package pdftex.def Info: img/dbscan.png  used on input line 142.
 (pdftex.def)             Requested size: 390.25853pt x 377.61127pt.
 \Changes@OutFile=\write4
 \openout4 = `etat_art.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
-[9 <./img/dbscan.png>] [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
+[11 <./img/dbscan.png>] [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
  (etat_art.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
 Package rerunfilecheck Info: File `etat_art.out' has not changed.
 (rerunfilecheck)             Checksum: ED9437DE3E14612094EEB27D53D32997;1426.
 
@@ -956,10 +971,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8925 strings out of 493305
- 131004 string characters out of 3129367
+ 8943 strings out of 493305
+ 131255 string characters out of 3129367
  241241 words of memory out of 3000000
- 12294 multiletter control sequences out of 15000+200000
+ 12304 multiletter control sequences out of 15000+200000
  14015 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,41p,2253b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -976,9 +991,9 @@ cm/cmmi12.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmmi8.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nathan/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on etat_art.pdf (10 pages, 431120 bytes).
+Output written on etat_art.pdf (12 pages, 644665 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 435 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

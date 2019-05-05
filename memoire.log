@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  21 APR 2019 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  5 MAY 2019 15:00
 entering extended mode
 **./memoire.tex
 (memoire.tex
@@ -876,40 +876,48 @@ File: img/fuzzy_algo.png Graphic file (type png)
 Package pdftex.def Info: img/fuzzy_algo.png  used on input line 54.
 (pdftex.def)             Requested size: 231.2643pt x 61.42957pt.
  [8 <./img/hierarchical_clustering.png> <./img/fuzzy_algo.png>]
-<img/well_separated.png, id=176, 264.99pt x 247.67531pt>
+<img/cobweb.png, id=178, 654.19406pt x 258.9675pt>
+File: img/cobweb.png Graphic file (type png)
+<use img/cobweb.png>
+Package pdftex.def Info: img/cobweb.png  used on input line 75.
+(pdftex.def)             Requested size: 457.93272pt x 181.27599pt.
+ [9 <./img/cobweb.png>]
+<img/well_separated.png, id=187, 264.99pt x 247.67531pt>
 File: img/well_separated.png Graphic file (type png)
 <use img/well_separated.png>
-Package pdftex.def Info: img/well_separated.png  used on input line 81.
+Package pdftex.def Info: img/well_separated.png  used on input line 87.
 (pdftex.def)             Requested size: 211.99228pt x 198.1405pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9] [10 <./img/well_separated.png>]
-<img/density_cluster.png, id=190, 324.46219pt x 298.11375pt>
+ [10 <./img/well_separated.png>] [11]
+<img/kruskal.png, id=199, 408.02437pt x 221.32687pt>
+File: img/kruskal.png Graphic file (type png)
+<use img/kruskal.png>
+Package pdftex.def Info: img/kruskal.png  used on input line 104.
+(pdftex.def)             Requested size: 326.41994pt x 177.06172pt.
+ [12 <./img/kruskal.png>]
+<img/density_cluster.png, id=207, 324.46219pt x 298.11375pt>
 File: img/density_cluster.png Graphic file (type png)
 <use img/density_cluster.png>
-Package pdftex.def Info: img/density_cluster.png  used on input line 95.
+Package pdftex.def Info: img/density_cluster.png  used on input line 111.
 (pdftex.def)             Requested size: 259.57008pt x 238.49132pt.
- [11 <./img/density_cluster.png>] [12]
-<img/dbscan.png, id=204, 487.8225pt x 472.01344pt>
+
+[13 <./img/density_cluster.png>] [14]
+<img/dbscan.png, id=222, 487.8225pt x 472.01344pt>
 File: img/dbscan.png Graphic file (type png)
 <use img/dbscan.png>
-Package pdftex.def Info: img/dbscan.png  used on input line 126.
+Package pdftex.def Info: img/dbscan.png  used on input line 142.
 (pdftex.def)             Requested size: 390.25853pt x 377.61127pt.
-)
-(Implementation.tex [13 <./img/dbscan.png>] [14]
+) (Implementation.tex [15 <./img/dbscan.png>] [16]
 Chapitre 2.
-) (memoire.bbl [15
+) (memoire.bbl [17
 
-] [16
+] [18
 
 ])
 \Changes@OutFile=\write5
 \openout5 = `memoire.soc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
- [17]
+ [19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
  (memoire.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
@@ -919,10 +927,10 @@ Package rerunfilecheck Info: File `memoire.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 8965 strings out of 493305
- 131329 string characters out of 3129367
- 241375 words of memory out of 3000000
- 12300 multiletter control sequences out of 15000+200000
+ 8984 strings out of 493305
+ 131590 string characters out of 3129367
+ 241403 words of memory out of 3000000
+ 12310 multiletter control sequences out of 15000+200000
  14015 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,8n,39p,2275b,565s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -939,9 +947,9 @@ cm/cmmi12.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmmi8.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nathan/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on memoire.pdf (17 pages, 469593 bytes).
+Output written on memoire.pdf (19 pages, 679247 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

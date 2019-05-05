@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{ref9}
 P.~Arabie, L.~J. Hubert, and G.~D. Soete.
@@ -51,5 +51,9 @@ R.~E. Stcpp.
 P.-N. Tan, M.~Steinbach, A.~Karpatne, and V.~Kumar.
 \newblock {\em Cluster Analysis: Basic Concepts and Algorithms}.
 \newblock Pearson; 2 edition (January 4, 2018), 2018.
+
+\bibitem{ref14}
+M.~Theodorakis, A.~Vlachos, and T.~Z. Kalamboukis.
+\newblock Using hierarchical clustering to enhance classification accuracy.
 
 \end{thebibliography}

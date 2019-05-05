@@ -3,4 +3,6 @@ The style file: abbrv.bst
 Database file #1: biblio.bib
 Warning--empty journal in ref9
 Warning--empty year in ref11
-(There were 2 warnings)
+Warning--empty journal in ref14
+Warning--empty year in ref14
+(There were 4 warnings)
