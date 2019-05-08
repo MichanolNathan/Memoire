@@ -10,10 +10,9 @@
 \BOOKMARK [2][-]{subsection.1.4.2}{Le clustering conceptuel}{section.1.4}% 10
 \BOOKMARK [1][-]{section.1.5}{Les types de clusters}{chapter.1}% 11
 \BOOKMARK [2][-]{subsection.1.5.1}{Well-Separated}{section.1.5}% 12
-\BOOKMARK [2][-]{subsection.1.5.2}{Prototype-Based}{section.1.5}% 13
-\BOOKMARK [2][-]{subsection.1.5.3}{Graph-Based}{section.1.5}% 14
-\BOOKMARK [2][-]{subsection.1.5.4}{Density-Based}{section.1.5}% 15
-\BOOKMARK [1][-]{section.1.6}{Les algorithmes}{chapter.1}% 16
-\BOOKMARK [2][-]{subsection.1.6.1}{K-means}{section.1.6}% 17
-\BOOKMARK [2][-]{subsection.1.6.2}{Agglomerative Hierarchical Clustering}{section.1.6}% 18
-\BOOKMARK [2][-]{subsection.1.6.3}{DBSCAN}{section.1.6}% 19
+\BOOKMARK [2][-]{subsection.1.5.2}{Graph-Based}{section.1.5}% 13
+\BOOKMARK [2][-]{subsection.1.5.3}{Density-Based}{section.1.5}% 14
+\BOOKMARK [1][-]{section.1.6}{Les algorithmes}{chapter.1}% 15
+\BOOKMARK [2][-]{subsection.1.6.1}{K-means}{section.1.6}% 16
+\BOOKMARK [2][-]{subsection.1.6.2}{Agglomerative Hierarchical Clustering}{section.1.6}% 17
+\BOOKMARK [2][-]{subsection.1.6.3}{DBSCAN}{section.1.6}% 18

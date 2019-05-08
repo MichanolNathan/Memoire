@@ -11,11 +11,10 @@
 \contentsline {subsection}{\numberline {1.4.2}Le clustering conceptuel}{9}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Les types de clusters}{10}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Well-Separated}{10}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Prototype-Based}{10}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Graph-Based}{10}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.2}Graph-Based}{10}{subsection.1.5.2}
 \contentsline {subsubsection}{L'algorithme de Prim}{11}{section*.3}
 \contentsline {subsubsection}{L\IeC {\textquoteright }algorithme de Kruskal}{12}{section*.4}
-\contentsline {subsection}{\numberline {1.5.4}Density-Based}{13}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.3}Density-Based}{13}{subsection.1.5.3}
 \contentsline {section}{\numberline {1.6}Les algorithmes}{14}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}K-means}{14}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1.6.2}Agglomerative Hierarchical Clustering}{14}{subsection.1.6.2}
