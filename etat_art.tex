@@ -17,8 +17,26 @@ L'utilisation de la standardisation est motivée par le fait que l'analyse de cl
 \end{itemize}
 La modification de la distribution quant à elle est motivée par les mêmes problématiques que dans d'autres secteurs ayant recours aux statistiques qui sont d'extrêmes variations par rapport à ce qui est considéré "normal" dans le cas étudié. Celles-ci entrainent des analyses pouvant induire en erreur. Par conséquent lorsque le poids des variables est modifié le but est d'identifier et supprimer leur longue traine qui correspond à un nombre de variables possédant des valeurs très supérieures ou inférieures à la moyenne.
 
+\subsection{La détection d'outliers}
+Dans des secteurs comme le Data-Mining, un outlier ou données aberrantes est une observation se distinguant des autres par le fait qu'il représente une valeur extrème. A noter que cette observation peut être soit anormalement élevée ou basse, ce critère étant dépendant du cas étudié. Par conséquent, une interprétation d'un jeu de données contenant un nombre important d'outliers peut amener à l'erreur ce qui implique que la décision de considérer ou non les outliers doit être prise au moment de la construction du modèle de données. Il est à noter qu'en fonction du cas éutidé, il n'éxiste pas de définition mathématique déterminant ce qu'est un outlier. Toutefois, les causes retenues pouvant expliquer leur présence sont : \begin{itemize}
+\item L'erreur humaine
+\item Une erreur lors de la transmission/transcription des données
+\item Un changement de procédure
+\end{itemize}
+Des méthodes existent cependant afin d'aider à la détection telle que la  droite de Henry ou encore la technique des boites à moustaches.
+\subsubsection{La droite de Henry}
+La droite de Henry est méthode graphique permettant d'évaluer "la normalité" d'une distribution pour une série d'observations, ce qui permet à la lecture du graphique obtenu de repérer rapidement la moyenne et l'écart type du jeu de données traité.(figure 1.1)
+	\begin{figure}[h!]
+		\centerline{\includegraphics[scale=0.8]{img/henry.png}}
+		\caption{Représentation d'une droite de Hennry}
+	\end{figure}
+
+Les points indiquent toutes les valeurs des fréquences réelles pour les différentes valeurs attribuées à une variable. Si la distribution est considérée comme "normale" alors tous les points devraient se trouver sur la droite.
+\subsubsection{la technique des boites à moustaches}
+
+Une boite à moustaches ou box-plot est, en statistiques, une représentation graphique permettant pour un jeu de données de représenter la médiane, les quartiles et les centiles. Cette méthode est principalement utilisée afin de comparer un même caractère dans deux populations de tailles différentes.
 \section{La mesure de distance}
-Le choix de la méthode de mesure de distance est une étape critique pour les méthodes de clustering, son choix ayant une très forte influence sur le résultat final. En effet, la méthodologie choisie définira comment les similarités de deux éléments sont calculées et influera par conséquent sur la forme des clusters également. Les deux méthodes les plus communes de mesure sont la distance Euclidienne illustrée par la formule suivante (figure1.1) : 
+Le choix de la méthode de mesure de distance est une étape critique pour les méthodes de clustering, son choix ayant une très forte influence sur le résultat final. En effet, la méthodologie choisie définira comment les similarités de deux éléments sont calculées et influera par conséquent sur la forme des clusters également. Les deux méthodes les plus communes de mesure sont la distance Euclidienne illustrée par la formule suivante (figure1.2) : 
 
 	\begin{figure}[h!]
 		\centerline{\includegraphics[scale=0.8]{img/euclidienne_distance.png}}
@@ -33,7 +51,7 @@ $d(A,B) = [X_{b} - X_{a}] + [Y_{b} - Y_{a}]$\\
 \newpage
 \section{Les méthodes de clustering}
 		\subsection{Le clustering hiérarchique}
-Parmis les différents types de clustering existant \cite{ref4}, le premier étudié sera le clustering hiérarchique. Très utilisé comme outil d'analyse de données, l'idée principale de cette méthode est de construire un arbre binaire fusionnant de façon successive les groupes de points similaires. L'un des avantages de cette façon de faire  est tout d'abord l'apport de l'arbre qui permet d'avoir une vision globale des données traitées. De plus, cette méthodologie possède ses propres outils de visualisation qui sont le dendrogramme et la classification double. Le dendrogramme permet d'illustrer l'arrangement des clusters (figure 1.2)\cite{ref8} :
+Parmis les différents types de clustering existant \cite{ref4}, le premier étudié sera le clustering hiérarchique. Très utilisé comme outil d'analyse de données, l'idée principale de cette méthode est de construire un arbre binaire fusionnant de façon successive les groupes de points similaires. L'un des avantages de cette façon de faire  est tout d'abord l'apport de l'arbre qui permet d'avoir une vision globale des données traitées. De plus, cette méthodologie possède ses propres outils de visualisation qui sont le dendrogramme et la classification double. Le dendrogramme permet d'illustrer l'arrangement des clusters (figure 1.3)\cite{ref8} :
 \begin{itemize}
 \item la racine de l'arbre est formée par un cluster contenant l'ensemble des objets.
 \item chaque nœud de l'arbre constitue un cluster.
@@ -49,7 +67,7 @@ Parmis les différents types de clustering existant \cite{ref4}, le premier étu
 	
 \newpage
 \subsection{Le clustering par partitionnement}
-Le clustering par partionnement contrairement au clustering hiérarchique qui utilise un arbre afin de représenter les différents groupe de données va classifier les différents objets en groupe en fonction de leur similarités. Cependant ce mode de fonctionnement pause un problème concernant le choix de la "bonne représentation" en fonction d'un critère choisi, le but devient alors de rechercher une représentation optimale de son critère à travers plusieurs itérations.\cite{ref8} L'algorithme le plus utilisé pour ce type de méthode est K-means qui sera présenté dans la suite de ce document. Dans le cas du clustering par partitionnement, il existe une sous-catégorie nommée le partitionnement flou. Celle-ci à recours à une autre version de l'algorithme k-means appelée \textit{Fuzzy k-means} ou k-moyennes flou. Cet algorithme cherche à minimiser la fonction illustrée par la figure 1.3.
+Le clustering par partionnement contrairement au clustering hiérarchique qui utilise un arbre afin de représenter les différents groupe de données va classifier les différents objets en groupe en fonction de leur similarités. Cependant ce mode de fonctionnement pause un problème concernant le choix de la "bonne représentation" en fonction d'un critère choisi, le but devient alors de rechercher une représentation optimale de son critère à travers plusieurs itérations.\cite{ref8} L'algorithme le plus utilisé pour ce type de méthode est K-means qui sera présenté dans la suite de ce document. Dans le cas du clustering par partitionnement, il existe une sous-catégorie nommée le partitionnement flou. Celle-ci à recours à une autre version de l'algorithme k-means appelée \textit{Fuzzy k-means} ou k-moyennes flou. Cet algorithme cherche à minimiser la fonction illustrée par la figure 1.4.
 	\begin{figure}[h!]
 		\centerline{\includegraphics[scale=0.8]{img/fuzzy_algo.png}}
 		\caption{Fonction objectif de Fuzzy k-means}
@@ -68,7 +86,7 @@ Cette approche est adoptée lors de l'utilisation d'apprentissage automatique et
 
 \subsection{Le clustering conceptuel}
 Le clustering conceptuel est un paradigme d'apprentissage non supervisé ayant fait son apparition durant les années 1980. Cette méthode se différencie du clustering de données classique par le fait qu'elle génère une description de concept pour chaque classes générées. Un autre facteur de différenciation est le fait que les phases de clusterisation et de caractérisation des données ne sont pas indépendantes.\cite{ref11}
-Un exemple d’algorithme se basant sur cette méthode est COBWEB(figure 1.3) qui est un algorithme utilisant les concepts du clustering hiérarchique et produira par conséquent en sortie une hiérarchie de concept. 
+Un exemple d’algorithme se basant sur cette méthode est COBWEB(figure 1.5) qui est un algorithme utilisant les concepts du clustering hiérarchique et produira par conséquent en sortie une hiérarchie de concept. 
 La limits de cet algorithme est le fait que celui-ci traite difficilement les attributs numériques\cite{ref8}, de plus bien qu’étant utilisé pour la découverte de classes d’objets dans d’importants volume de données 
 \cite{ref14}. Le stockage de l'ensemble des instances d’une hiérarchie peut représenter une nouvelle problématique sur des volumes importants de données.
 	\begin{figure}[h!]
@@ -82,7 +100,7 @@ Le but du clustering étant de trouver des groupes d'objets présentant des simi
 définies en fonction de l'objectif recherché. Il existe toutefois une multitude de types de cluster qui seront étudiés au sein de cette section chacun avec ses avantages et inconvénients en fonction de notre cas avant de statuer sur le type qui sera utilisé pour le reste de ce document.
 
 \subsection{Well-Separated}
-Un cluster "well-separated" est un regroupement de points de telle façon à ce que tous les points faisant parti d'un même cluster présentent de fortes similarités entre eux comparés aux points d'un cluster extérieur(figure 1.3). Si la population de cluster est suffisament bien compartimentée, ce type de cluster permet de faire fonctionner n'importe quelle méthode de clustering de façon efficace.
+Un cluster "well-separated" est un regroupement de points de telle façon à ce que tous les points faisant parti d'un même cluster présentent de fortes similarités entre eux comparés aux points d'un cluster extérieur(figure 1.6). Si la population de cluster est suffisament bien compartimentée, ce type de cluster permet de faire fonctionner n'importe quelle méthode de clustering de façon efficace.
 	\begin{figure}[h!]
 		\centerline{\includegraphics[scale=0.8]{img/well_separated.png}}
 		\caption{Well separated clusters}
@@ -93,9 +111,13 @@ Le graph-based cluster est utilisé dans les cas ou les données peuvent être r
 La théorie des graphes peut être utiliser afin d’apporter des informations plus précises sur le jeu de données en ce qui concerne les cluster, cliques et outliers. Une approche hiérarchique peut être employée à travers la création d’un arbre couvrant de poids minimal ou minimum spanning tree. Dans un contexte ou un graph G est connexe, l’arbre est un sous-graphe connexe avec un poids minimal contenant tous les nœuds du graphe d’origine G et ne possédant pas de cycle. Il existe deux algorithmes permettant d’établir ce type d’arbre, l’algorithme de Prim et l’algorithme de Kruskal.
 \subsubsection{L'algorithme de Prim}
 L’algorithme de Prim est un algorithme dit « glouton », c'est-à-dire qu’il va pour chaque étape effectuer un choix local jugé optimum. Cet algorithme ( figure …) va s’exécuter en choisissant un axe de poids minimal jusqu’à ce que tous les sommets aient été atteints. Il existe cependant une part d'indéterminisme, il est en effet possible que deux exécutions de cet algorithme renvoient chacun une solution différente. A noter que celle-ci sera tout de même optimale.
+	\begin{figure}[h!]
+		\centerline{\includegraphics[scale=0.8]{img/prim.png}}
+		\caption{Algorithme de Prim}
+	\end{figure}
 \newpage
 \subsubsection{L’algorithme de Kruskal}
-Créé en 1956  par  Joseph Kruskal  cet algorithme utilise comme entrée un graphe connexe non orienté et pondéré (figure 1.6) et va considérer chaque arrête par ordre croissant. Si l’arrête sélectionnée ne crée pas de cycle, celle-ci sera utilisée dans la construction d’un arbre couvrant de poids minimum.\\
+Créé en 1956  par  Joseph Kruskal  cet algorithme utilise comme entrée un graphe connexe non orienté et pondéré (figure 1.8) et va considérer chaque arrête par ordre croissant. Si l’arrête sélectionnée ne crée pas de cycle, celle-ci sera utilisée dans la construction d’un arbre couvrant de poids minimum.\\
 Les algorithmes de Prim et Kruskal possédant chacun une part d’indéterminisme, il est tout à fait possible que chacun renvoie un arbre différent tout en utilisant le même graphe de départ. Les solutions données seront toutefois jugées optimales pour les deux algorithmes.
 	\begin{figure}[h!]
 		\centerline{\includegraphics[scale=0.8]{img/kruskal.png}}

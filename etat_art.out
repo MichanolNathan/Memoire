@@ -1,18 +1,19 @@
 \BOOKMARK [0][-]{chapter.1}{Etat de l'art du clustering}{}% 1
 \BOOKMARK [1][-]{section.1.1}{La pr\351paration des donn\351es}{chapter.1}% 2
 \BOOKMARK [2][-]{subsection.1.1.1}{La Transformation des variables}{section.1.1}% 3
-\BOOKMARK [1][-]{section.1.2}{La mesure de distance}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.3}{Les m\351thodes de clustering}{chapter.1}% 5
-\BOOKMARK [2][-]{subsection.1.3.1}{Le clustering hi\351rarchique}{section.1.3}% 6
-\BOOKMARK [2][-]{subsection.1.3.2}{Le clustering par partitionnement}{section.1.3}% 7
-\BOOKMARK [1][-]{section.1.4}{Les autres types de clustering}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.4.1}{Le clustering bas\351 sur des m\351langes de mod\350les}{section.1.4}% 9
-\BOOKMARK [2][-]{subsection.1.4.2}{Le clustering conceptuel}{section.1.4}% 10
-\BOOKMARK [1][-]{section.1.5}{Les types de clusters}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.5.1}{Well-Separated}{section.1.5}% 12
-\BOOKMARK [2][-]{subsection.1.5.2}{Graph-Based}{section.1.5}% 13
-\BOOKMARK [2][-]{subsection.1.5.3}{Density-Based}{section.1.5}% 14
-\BOOKMARK [1][-]{section.1.6}{Les algorithmes}{chapter.1}% 15
-\BOOKMARK [2][-]{subsection.1.6.1}{K-means}{section.1.6}% 16
-\BOOKMARK [2][-]{subsection.1.6.2}{Agglomerative Hierarchical Clustering}{section.1.6}% 17
-\BOOKMARK [2][-]{subsection.1.6.3}{DBSCAN}{section.1.6}% 18
+\BOOKMARK [2][-]{subsection.1.1.2}{La d\351tection d'outliers}{section.1.1}% 4
+\BOOKMARK [1][-]{section.1.2}{La mesure de distance}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Les m\351thodes de clustering}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.3.1}{Le clustering hi\351rarchique}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.2}{Le clustering par partitionnement}{section.1.3}% 8
+\BOOKMARK [1][-]{section.1.4}{Les autres types de clustering}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.4.1}{Le clustering bas\351 sur des m\351langes de mod\350les}{section.1.4}% 10
+\BOOKMARK [2][-]{subsection.1.4.2}{Le clustering conceptuel}{section.1.4}% 11
+\BOOKMARK [1][-]{section.1.5}{Les types de clusters}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.5.1}{Well-Separated}{section.1.5}% 13
+\BOOKMARK [2][-]{subsection.1.5.2}{Graph-Based}{section.1.5}% 14
+\BOOKMARK [2][-]{subsection.1.5.3}{Density-Based}{section.1.5}% 15
+\BOOKMARK [1][-]{section.1.6}{Les algorithmes}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.6.1}{K-means}{section.1.6}% 17
+\BOOKMARK [2][-]{subsection.1.6.2}{Agglomerative Hierarchical Clustering}{section.1.6}% 18
+\BOOKMARK [2][-]{subsection.1.6.3}{DBSCAN}{section.1.6}% 19
