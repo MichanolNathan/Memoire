@@ -142,12 +142,17 @@ L'algorithme K-means est l'algorithme le plus populaire, celui-ci peut être uti
 \item Clustering de documents qui dans notre cas seraient les CV d'anciens étudiants.
 \item La segmentation d'un jeu de données en fonction de critères.
 \end{itemize}
-Celui-ci recherche la meilleure division possible au sein d'un jeux de données \cite{ref5} et possède comme avantage une certaine facilité d'implémentation. Cependant, il impose de savoir le nombre de clusters \textbf{K} souhaités et par conséquent une bonne connaissance des données utilisées. L'une des solutions possibles, lorsqu'un grand jeu de données est utilisé afin de déterminer le nombre de cluster voulu est de lancer l'algorithme avec différentes valeurs et de calculer ensuite la variance entre les résultats obtenus. Celle-ci représente ainsi la somme des distances entre chaque \textit{centroïde}.\\
+Celui-ci recherche la meilleure division possible au sein d'un jeux de données \cite{ref5} et possède comme avantage une certaine facilité d'implémentation. Cependant, il impose de connaitre le nombre de clusters \textbf{K} souhaités et par conséquent une bonne connaissance des données utilisées. L'une des solutions possibles, lorsqu'un grand jeu de données est utilisé afin de déterminer le nombre de cluster voulu est de lancer l'algorithme avec différentes valeurs et de calculer ensuite la variance entre les résultats obtenus. Celle-ci représente ainsi la somme des distances entre chaque \textit{centroïde}.\\
 K-means fonctionne de la façon suivante : 
 \begin{itemize}
 \item Choix d'un nombre de clusters K
 \item Affectation de chaque point au groupe dont il est le plus proche.
 \item Itération jusqu'à ce qu'il n'y ait plus de changements au niveau des centroïdes, c'est à dire que ceux-ci ne bougent plus lors des itérations.
+\end{itemize}
+Dans notre cas qui est la clusterisation de documents en fonction des types de parcours. Ceux-ci représentant des différents tags en fonction du document étudié,nous sommes par conséquent dans un problème classique de classification pour lequel k-means représente une solution possible. Dans cette situation, un premier traitement de chaque documents est requis afin de pouvoir les représenter sous forme de vecteurs et utiliser la fréquence d'apparition de certains termes afin d'identifier les mots les plus fréquents et ainsi aider à la classification du document étudié. Les vecteurs de documents sont ensuite clusterisés afin d'identifier les similarités dans un groupe de documents. A noter qu'il existe d'autres applications possibles à K-means telles que : \begin{itemize}
+\item Segmentisation de clientèle
+\item Analyse d'appels enregistrés
+\item Prédiction de crime \cite{ref15}
 \end{itemize}
 
 \subsection{Agglomerative Hierarchical Clustering}
