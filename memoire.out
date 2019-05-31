@@ -18,3 +18,6 @@
 \BOOKMARK [2][-]{subsection.1.6.2}{Agglomerative Hierarchical Clustering}{section.1.6}% 18
 \BOOKMARK [2][-]{subsection.1.6.3}{DBSCAN}{section.1.6}% 19
 \BOOKMARK [0][-]{chapter.2}{Impl\351mentation}{}% 20
+\BOOKMARK [1][-]{subsection.2.0.1}{Objectifs}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.0.2}{M\351thode propos\351e}{subsection.2.0.1}% 22
+\BOOKMARK [2][-]{subsection.2.0.3}{Probl\350matiques restantes}{subsection.2.0.1}% 23
