@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  31 MAY 2019 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  10 JUN 2019 15:48
 entering extended mode
 **./etat_art.tex
 (etat_art.tex
@@ -867,28 +867,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 46.
+<img/manhatan_distance.png, id=98, 216.81pt x 36.135pt>
+File: img/manhatan_distance.png Graphic file (type png)
+<use img/manhatan_distance.png>
+Package pdftex.def Info: img/manhatan_distance.png  used on input line 48.
+(pdftex.def)             Requested size: 173.44823pt x 28.90802pt.
+ [3 <./img/henry.png> <./img/euclidienne_distance.png> <./img/manhatan_distance
+.png>] [4]
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
-
- []
-
-[3 <./img/henry.png> <./img/euclidienne_distance.png>] [4]
-
-LaTeX Warning: Citation `ref4' on page 5 undefined on input line 54.
-
-
-LaTeX Warning: Citation `ref8' on page 5 undefined on input line 54.
+LaTeX Warning: Citation `ref4' on page 5 undefined on input line 55.
 
 
-LaTeX Warning: Citation `ref7' on page 5 undefined on input line 62.
+LaTeX Warning: Citation `ref8' on page 5 undefined on input line 55.
 
 
-LaTeX Warning: Citation `ref5' on page 5 undefined on input line 62.
+LaTeX Warning: Citation `ref7' on page 5 undefined on input line 63.
 
-<img/hierarchical_clustering.png, id=115, 264.23718pt x 268.00125pt>
+
+LaTeX Warning: Citation `ref5' on page 5 undefined on input line 63.
+
+<img/hierarchical_clustering.png, id=116, 264.23718pt x 268.00125pt>
 File: img/hierarchical_clustering.png Graphic file (type png)
 <use img/hierarchical_clustering.png>
-Package pdftex.def Info: img/hierarchical_clustering.png  used on input line 66
+Package pdftex.def Info: img/hierarchical_clustering.png  used on input line 65
 .
 (pdftex.def)             Requested size: 211.39001pt x 214.40128pt.
 
@@ -896,118 +897,124 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5]
 
-LaTeX Warning: Citation `ref8' on page 6 undefined on input line 70.
+LaTeX Warning: Citation `ref8' on page 6 undefined on input line 71.
 
 <img/fuzzy_algo.png, id=121, 289.08pt x 76.78688pt>
 File: img/fuzzy_algo.png Graphic file (type png)
 <use img/fuzzy_algo.png>
-Package pdftex.def Info: img/fuzzy_algo.png  used on input line 72.
+Package pdftex.def Info: img/fuzzy_algo.png  used on input line 73.
 (pdftex.def)             Requested size: 231.2643pt x 61.42957pt.
 
-LaTeX Warning: Citation `ref13' on page 6 undefined on input line 79.
+LaTeX Warning: Citation `ref13' on page 6 undefined on input line 80.
 
 [6 <./img/hierarchical_clustering.png> <./img/fuzzy_algo.png>]
 
-LaTeX Warning: Citation `ref10' on page 7 undefined on input line 85.
+LaTeX Warning: Citation `ref10' on page 7 undefined on input line 86.
 
 
-LaTeX Warning: Citation `ref8' on page 7 undefined on input line 85.
+LaTeX Warning: Citation `ref8' on page 7 undefined on input line 86.
 
 
-LaTeX Warning: Citation `ref11' on page 7 undefined on input line 88.
+LaTeX Warning: Citation `ref11' on page 7 undefined on input line 89.
 
 
-LaTeX Warning: Citation `ref8' on page 7 undefined on input line 90.
+LaTeX Warning: Citation `ref8' on page 7 undefined on input line 91.
 
 
-LaTeX Warning: Citation `ref14' on page 7 undefined on input line 91.
+LaTeX Warning: Citation `ref14' on page 7 undefined on input line 92.
 
-<img/cobweb.png, id=130, 654.19406pt x 258.9675pt>
+<img/cobweb.png, id=131, 654.19406pt x 258.9675pt>
 File: img/cobweb.png Graphic file (type png)
 <use img/cobweb.png>
-Package pdftex.def Info: img/cobweb.png  used on input line 93.
+Package pdftex.def Info: img/cobweb.png  used on input line 94.
 (pdftex.def)             Requested size: 457.93272pt x 181.27599pt.
 [7 <./img/cobweb.png>]
-<img/well_separated.png, id=137, 264.99pt x 247.67531pt>
+<img/well_separated.png, id=138, 264.99pt x 247.67531pt>
 File: img/well_separated.png Graphic file (type png)
 <use img/well_separated.png>
-Package pdftex.def Info: img/well_separated.png  used on input line 105.
+Package pdftex.def Info: img/well_separated.png  used on input line 106.
 (pdftex.def)             Requested size: 211.99228pt x 198.1405pt.
  [8 <./img/well_separated.png>]
-<img/prim.png, id=144, 373.395pt x 228.855pt>
+<img/prim.png, id=145, 373.395pt x 228.855pt>
 File: img/prim.png Graphic file (type png)
 <use img/prim.png>
-Package pdftex.def Info: img/prim.png  used on input line 115.
+Package pdftex.def Info: img/prim.png  used on input line 116.
 (pdftex.def)             Requested size: 298.7164pt x 183.08423pt.
  [9 <./img/prim.png>]
-<img/kruskal.png, id=152, 408.02437pt x 221.32687pt>
+<img/kruskal.png, id=153, 408.02437pt x 221.32687pt>
 File: img/kruskal.png Graphic file (type png)
 <use img/kruskal.png>
-Package pdftex.def Info: img/kruskal.png  used on input line 123.
+Package pdftex.def Info: img/kruskal.png  used on input line 124.
 (pdftex.def)             Requested size: 326.41994pt x 177.06172pt.
 
 [10 <./img/kruskal.png>]
 
-LaTeX Warning: Citation `ref4' on page 11 undefined on input line 128.
+LaTeX Warning: Citation `ref4' on page 11 undefined on input line 129.
 
-<img/density_cluster.png, id=159, 324.46219pt x 298.11375pt>
+<img/density_cluster.png, id=160, 324.46219pt x 298.11375pt>
 File: img/density_cluster.png Graphic file (type png)
 <use img/density_cluster.png>
-Package pdftex.def Info: img/density_cluster.png  used on input line 130.
+Package pdftex.def Info: img/density_cluster.png  used on input line 131.
 (pdftex.def)             Requested size: 259.57008pt x 238.49132pt.
 [11 <./img/density_cluster.png>]
 
-LaTeX Warning: Citation `ref5' on page 12 undefined on input line 145.
+LaTeX Warning: Citation `ref5' on page 12 undefined on input line 146.
 
 
-LaTeX Warning: Citation `ref15' on page 12 undefined on input line 155.
+LaTeX Warning: Citation `ref15' on page 12 undefined on input line 156.
 
 
-LaTeX Warning: Citation `ref4' on page 12 undefined on input line 160.
+LaTeX Warning: Citation `ref4' on page 12 undefined on input line 161.
 
 [12]
 
-LaTeX Warning: Citation `ref10' on page 13 undefined on input line 166.
+LaTeX Warning: Citation `ref10' on page 13 undefined on input line 167.
 
 
-LaTeX Warning: Citation `ref16' on page 13 undefined on input line 166.
+LaTeX Warning: Citation `ref16' on page 13 undefined on input line 167.
 
 [13]
 
-LaTeX Warning: Citation `ref12' on page 14 undefined on input line 171.
+LaTeX Warning: Citation `ref12' on page 14 undefined on input line 172.
 
-<img/dbscan.png, id=176, 487.8225pt x 472.01344pt>
+<img/dbscan.png, id=177, 487.8225pt x 472.01344pt>
 File: img/dbscan.png Graphic file (type png)
 <use img/dbscan.png>
-Package pdftex.def Info: img/dbscan.png  used on input line 174.
+Package pdftex.def Info: img/dbscan.png  used on input line 175.
 (pdftex.def)             Requested size: 390.25853pt x 377.61127pt.
 
-LaTeX Warning: Citation `ref17' on page 14 undefined on input line 178.
+LaTeX Warning: Citation `ref17' on page 14 undefined on input line 179.
 
 \Changes@OutFile=\write4
 \openout4 = `etat_art.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+
+Overfull \hbox (10.39786pt too wide) in paragraph at lines 172--180
+\T1/cmr/m/n/12 struc-tures au sein d'un jeu de don-nées. Celui-ci peut être ex-
+primé en peudo-code.(figure
+ []
+
 [14 <./img/dbscan.png>] [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
  (etat_art.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `etat_art.out' has not changed.
-(rerunfilecheck)             Checksum: C56FD38B85FB3776B4620E92F8A583E7;1437.
+(rerunfilecheck)             Checksum: CE41E4D622721B482D5120C586D86D53;1440.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8963 strings out of 493305
- 131493 string characters out of 3129367
- 240241 words of memory out of 3000000
- 12315 multiletter control sequences out of 15000+200000
+ 8969 strings out of 493305
+ 131644 string characters out of 3129367
+ 240242 words of memory out of 3000000
+ 12319 multiletter control sequences out of 15000+200000
  14015 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,41p,2264b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,41p,2244b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecti1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\eccc1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
@@ -1019,12 +1026,10 @@ nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
 <C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi12.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmmi8.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nathan/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nathan/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on etat_art.pdf (15 pages, 710582 bytes).
+onts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on etat_art.pdf (15 pages, 695161 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 459 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

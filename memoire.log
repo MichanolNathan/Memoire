@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  31 MAY 2019 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  10 JUN 2019 16:00
 entering extended mode
 **./memoire.tex
 (memoire.tex
@@ -827,34 +827,63 @@ LaTeX Info: Redefining \nameref on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(memoire.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(page_de_garde.tex
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 11.
+
+("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+
+LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <12> not available
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 14.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <20.74> not available
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 14.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <17.28> not available
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 16.
+
+<img/logo_nanterre.jpg, id=103, 619.31375pt x 133.49875pt>
+File: img/logo_nanterre.jpg Graphic file (type jpg)
+<use img/logo_nanterre.jpg>
+Package pdftex.def Info: img/logo_nanterre.jpg  used on input line 22.
+(pdftex.def)             Requested size: 247.72112pt x 53.39854pt.
+
+LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <14.4> not available
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 28.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 30.
+[1
+
+{C:/Users/nathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/logo
+_nanterre.jpg>] [2]) (remerciements.tex) (memoire.toc)
 \tf@toc=\write4
 \openout4 = `memoire.toc'.
 
- [1
+ [3
 
-
-{C:/Users/nathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+] [4
 
 ] (memoire.lof)
 \tf@lof=\write5
 \openout5 = `memoire.lof'.
 
- (Introduction.tex [3] [4
 
-]) (etat_art.tex [5] [6
+(Introduction.tex [5] [6
+
+]) (etat_art.tex [7] [8
 
 ]
 Chapitre 1.
-[7]
-<img/henry.png, id=178, 281.55188pt x 277.035pt>
+[9]
+<img/henry.png, id=211, 281.55188pt x 277.035pt>
 File: img/henry.png Graphic file (type png)
 <use img/henry.png>
 Package pdftex.def Info: img/henry.png  used on input line 30.
@@ -863,72 +892,78 @@ Package pdftex.def Info: img/henry.png  used on input line 30.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]
-<img/euclidienne_distance.png, id=186, 247.67531pt x 97.86563pt>
+[10]
+<img/euclidienne_distance.png, id=219, 247.67531pt x 97.86563pt>
 File: img/euclidienne_distance.png Graphic file (type png)
 <use img/euclidienne_distance.png>
 Package pdftex.def Info: img/euclidienne_distance.png  used on input line 42.
 (pdftex.def)             Requested size: 198.1405pt x 78.29259pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
-
- []
-
-[9 <./img/henry.png> <./img/euclidienne_distance.png>] [10]
-<img/hierarchical_clustering.png, id=206, 264.23718pt x 268.00125pt>
+<img/manhatan_distance.png, id=220, 216.81pt x 36.135pt>
+File: img/manhatan_distance.png Graphic file (type png)
+<use img/manhatan_distance.png>
+Package pdftex.def Info: img/manhatan_distance.png  used on input line 48.
+(pdftex.def)             Requested size: 173.44823pt x 28.90802pt.
+ [11 <./img/henry.png> <./img/euclidienne_distance.png> <./img/manhatan_distanc
+e.png>] [12]
+<img/hierarchical_clustering.png, id=239, 264.23718pt x 268.00125pt>
 File: img/hierarchical_clustering.png Graphic file (type png)
 <use img/hierarchical_clustering.png>
-Package pdftex.def Info: img/hierarchical_clustering.png  used on input line 66
+Package pdftex.def Info: img/hierarchical_clustering.png  used on input line 65
 .
 (pdftex.def)             Requested size: 211.39001pt x 214.40128pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11]
-<img/fuzzy_algo.png, id=217, 289.08pt x 76.78688pt>
+[13]
+<img/fuzzy_algo.png, id=250, 289.08pt x 76.78688pt>
 File: img/fuzzy_algo.png Graphic file (type png)
 <use img/fuzzy_algo.png>
-Package pdftex.def Info: img/fuzzy_algo.png  used on input line 72.
+Package pdftex.def Info: img/fuzzy_algo.png  used on input line 73.
 (pdftex.def)             Requested size: 231.2643pt x 61.42957pt.
- [12 <./img/hierarchical_clustering.png> <./img/fuzzy_algo.png>]
-<img/cobweb.png, id=231, 654.19406pt x 258.9675pt>
+ [14 <./img/hierarchical_clustering.png> <./img/fuzzy_algo.png>]
+<img/cobweb.png, id=265, 654.19406pt x 258.9675pt>
 File: img/cobweb.png Graphic file (type png)
 <use img/cobweb.png>
-Package pdftex.def Info: img/cobweb.png  used on input line 93.
+Package pdftex.def Info: img/cobweb.png  used on input line 94.
 (pdftex.def)             Requested size: 457.93272pt x 181.27599pt.
- [13 <./img/cobweb.png>]
-<img/well_separated.png, id=240, 264.99pt x 247.67531pt>
+ [15 <./img/cobweb.png>]
+<img/well_separated.png, id=273, 264.99pt x 247.67531pt>
 File: img/well_separated.png Graphic file (type png)
 <use img/well_separated.png>
-Package pdftex.def Info: img/well_separated.png  used on input line 105.
+Package pdftex.def Info: img/well_separated.png  used on input line 106.
 (pdftex.def)             Requested size: 211.99228pt x 198.1405pt.
- [14 <./img/well_separated.png>]
-<img/prim.png, id=246, 373.395pt x 228.855pt>
+ [16 <./img/well_separated.png>]
+<img/prim.png, id=279, 373.395pt x 228.855pt>
 File: img/prim.png Graphic file (type png)
 <use img/prim.png>
-Package pdftex.def Info: img/prim.png  used on input line 115.
+Package pdftex.def Info: img/prim.png  used on input line 116.
 (pdftex.def)             Requested size: 298.7164pt x 183.08423pt.
- [15 <./img/prim.png>]
-<img/kruskal.png, id=253, 408.02437pt x 221.32687pt>
+ [17 <./img/prim.png>]
+<img/kruskal.png, id=286, 408.02437pt x 221.32687pt>
 File: img/kruskal.png Graphic file (type png)
 <use img/kruskal.png>
-Package pdftex.def Info: img/kruskal.png  used on input line 123.
+Package pdftex.def Info: img/kruskal.png  used on input line 124.
 (pdftex.def)             Requested size: 326.41994pt x 177.06172pt.
- [16 <./img/kruskal.png>]
-<img/density_cluster.png, id=260, 324.46219pt x 298.11375pt>
+ [18 <./img/kruskal.png>]
+<img/density_cluster.png, id=293, 324.46219pt x 298.11375pt>
 File: img/density_cluster.png Graphic file (type png)
 <use img/density_cluster.png>
-Package pdftex.def Info: img/density_cluster.png  used on input line 130.
+Package pdftex.def Info: img/density_cluster.png  used on input line 131.
 (pdftex.def)             Requested size: 259.57008pt x 238.49132pt.
- [17 <./img/density_cluster.png>] [18] [19]
-<img/dbscan.png, id=284, 487.8225pt x 472.01344pt>
+ [19 <./img/density_cluster.png>] [20] [21]
+<img/dbscan.png, id=317, 487.8225pt x 472.01344pt>
 File: img/dbscan.png Graphic file (type png)
 <use img/dbscan.png>
-Package pdftex.def Info: img/dbscan.png  used on input line 174.
+Package pdftex.def Info: img/dbscan.png  used on input line 175.
 (pdftex.def)             Requested size: 390.25853pt x 377.61127pt.
 ) (Implementation.tex
-[20 <./img/dbscan.png>] [21] [22
+Overfull \hbox (10.39786pt too wide) in paragraph at lines 172--3
+\T1/cmr/m/n/12 struc-tures au sein d'un jeu de don-nées. Celui-ci peut être ex-
+primé en peudo-code.(figure
+ []
+
+[22 <./img/dbscan.png>] [23] [24
 
 ]
 Chapitre 2.
@@ -940,30 +975,48 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-[23]) (memoire.bbl [24])
+[25]
+<img/algo_table.png, id=342, 772.38562pt x 539.01375pt>
+File: img/algo_table.png Graphic file (type png)
+<use img/algo_table.png>
+Package pdftex.def Info: img/algo_table.png  used on input line 28.
+(pdftex.def)             Requested size: 463.43494pt x 323.41074pt.
+ [26 <./img/algo_table.png>]
+<img/data_sample.png, id=349, 647.41875pt x 74.52844pt>
+File: img/data_sample.png Graphic file (type png)
+<use img/data_sample.png>
+Package pdftex.def Info: img/data_sample.png  used on input line 35.
+(pdftex.def)             Requested size: 453.19003pt x 52.16954pt.
+<img/result_kmeans.png, id=350, 322.95656pt x 122.70844pt>
+File: img/result_kmeans.png Graphic file (type png)
+<use img/result_kmeans.png>
+Package pdftex.def Info: img/result_kmeans.png  used on input line 42.
+(pdftex.def)             Requested size: 226.06804pt x 85.89531pt.
+ [27 <./img/data_sample.png> <./img/result_kmeans.png>] [28]) (memoire.bbl [29]
+ [30
+
+])
 \Changes@OutFile=\write6
 \openout6 = `memoire.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
- [25
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+ [31]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
  (memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 807F510F7AD8CD91E73CF74E656B053B;1722.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
+(rerunfilecheck)             Checksum: 7F0B2B4EC85A76028713046939DF3D8B;1866.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 9041 strings out of 493305
- 132704 string characters out of 3129367
- 240493 words of memory out of 3000000
- 12339 multiletter control sequences out of 15000+200000
- 14328 words of font info for 35 fonts, out of 3000000 for 9000
+ 9129 strings out of 493305
+ 134546 string characters out of 3129367
+ 240494 words of memory out of 3000000
+ 12392 multiletter control sequences out of 15000+200000
+ 20260 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,8n,39p,2286b,565s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,39p,2266b,565s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ectt1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\ecti1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
@@ -973,15 +1026,20 @@ iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\nathan\AppD
 ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\
 nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk>
  <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-cbx2488.pk><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nathan/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nathan/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nathan
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on memoire.pdf (25 pages, 769926 bytes).
+cbx2488.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecss1440.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecsi1440.pk> <C:\Users\nathan\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2488.pk> <C:\Users\nathan\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk> <C:\Users\na
+than\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk><C
+:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on memoire.pdf (31 pages, 986857 bytes).
 PDF statistics:
- 703 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 873 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,13 +1,17 @@
 \babel@toc {french}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Repr\IeC {\'e}sentation d'une droite de Hennry}}{9}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Distance Euclidienne}}{9}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Exemple de dendrogramme}}{12}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Fonction objectif de Fuzzy k-means}}{12}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Algorithme Cobweb}}{13}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Well separated clusters}}{14}{figure.1.6}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Algorithme de Prim}}{15}{figure.1.7}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Algorithme de Kruskal}}{16}{figure.1.8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Density based clusters}}{17}{figure.1.9}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Algorithme DBSCAN}}{20}{figure.1.10}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Repr\IeC {\'e}sentation d'une droite de Henry}}{11}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Distance euclidienne}}{11}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Distance de Manhattan}}{11}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Exemple de dendrogramme}}{14}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Fonction objectif de Fuzzy K-Means}}{14}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Algorithme Cobweb}}{15}{figure.1.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Well separated clusters}}{16}{figure.1.7}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Algorithme de Prim}}{17}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Algorithme de Kruskal}}{18}{figure.1.9}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Density based clusters}}{19}{figure.1.10}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Algorithme DBSCAN}}{22}{figure.1.11}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparatif des algorithmes de clustering}}{26}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Extrait du jeu de donn\IeC {\'e}es}}{27}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces R\IeC {\'e}sultat de cr\IeC {\'e}ation de clusters par K-means}}{27}{figure.2.3}

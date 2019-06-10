@@ -1,30 +1,32 @@
 \babel@toc {french}{}
-\contentsline {chapter}{\numberline {1}Etat de l'art du clustering}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}La pr\IeC {\'e}paration des donn\IeC {\'e}es}{7}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}La Transformation des variables}{7}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}La d\IeC {\'e}tection d'outliers}{8}{subsection.1.1.2}
-\contentsline {subsubsection}{La droite de Henry}{8}{section*.4}
-\contentsline {subsubsection}{la technique des boites \IeC {\`a} moustaches}{8}{section*.5}
-\contentsline {section}{\numberline {1.2}La mesure de distance}{9}{section.1.2}
-\contentsline {section}{\numberline {1.3}Les m\IeC {\'e}thodes de clustering}{11}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Le clustering hi\IeC {\'e}rarchique}{11}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Le clustering par partitionnement}{12}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Les autres types de clustering}{13}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Le clustering bas\IeC {\'e} sur des m\IeC {\'e}langes de mod\IeC {\`e}les}{13}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Le clustering conceptuel}{13}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Les types de clusters}{14}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Well-Separated}{14}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Graph-Based}{14}{subsection.1.5.2}
-\contentsline {subsubsection}{L'algorithme de Prim}{15}{section*.6}
-\contentsline {subsubsection}{L\IeC {\textquoteright }algorithme de Kruskal}{16}{section*.7}
-\contentsline {subsection}{\numberline {1.5.3}Density-Based}{17}{subsection.1.5.3}
-\contentsline {section}{\numberline {1.6}Les algorithmes}{18}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}K-means}{18}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Agglomerative Hierarchical Clustering}{18}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}DBSCAN}{20}{subsection.1.6.3}
-\contentsline {chapter}{\numberline {2}Impl\IeC {\'e}mentation}{23}{chapter.2}
-\contentsline {subsection}{\numberline {2.0.1}Objectifs}{23}{subsection.2.0.1}
-\contentsline {subsection}{\numberline {2.0.2}M\IeC {\'e}thode propos\IeC {\'e}e}{23}{subsection.2.0.2}
-\contentsline {subsubsection}{Le jeu de donn\IeC {\'e}es}{23}{section*.8}
-\contentsline {subsubsection}{Choix de l'algorithme}{23}{section*.9}
-\contentsline {subsection}{\numberline {2.0.3}Probl\IeC {\`e}matiques restantes}{24}{subsection.2.0.3}
+\contentsline {chapter}{\numberline {1}\IeC {\'E}tat de l'art du clustering}{9}{chapter.1}
+\contentsline {section}{\numberline {1.1}La pr\IeC {\'e}paration des donn\IeC {\'e}es}{9}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}La transformation des variables}{9}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}La d\IeC {\'e}tection d'outliers}{10}{subsection.1.1.2}
+\contentsline {subsubsection}{La droite de Henry}{10}{section*.4}
+\contentsline {subsubsection}{la technique des boites \IeC {\`a} moustaches}{10}{section*.5}
+\contentsline {section}{\numberline {1.2}La mesure de distance}{11}{section.1.2}
+\contentsline {section}{\numberline {1.3}Les m\IeC {\'e}thodes de clustering}{13}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Le clustering hi\IeC {\'e}rarchique}{13}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Le clustering par partitionnement}{14}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Les autres types de clustering}{15}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Le clustering bas\IeC {\'e} sur des m\IeC {\'e}langes de mod\IeC {\`e}les}{15}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Le clustering conceptuel}{15}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Les types de clusters}{16}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Well-Separated}{16}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Graph-Based}{16}{subsection.1.5.2}
+\contentsline {subsubsection}{L'algorithme de Prim}{17}{section*.6}
+\contentsline {subsubsection}{L\IeC {\textquoteright }algorithme de Kruskal}{18}{section*.7}
+\contentsline {subsection}{\numberline {1.5.3}Density-Based}{19}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Les algorithmes}{20}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}K-means}{20}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Agglomerative Hierarchical Clustering}{20}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}DBSCAN}{22}{subsection.1.6.3}
+\contentsline {chapter}{\numberline {2}Impl\IeC {\'e}mentation}{25}{chapter.2}
+\contentsline {subsection}{\numberline {2.0.1}Objectifs}{25}{subsection.2.0.1}
+\contentsline {subsection}{\numberline {2.0.2}M\IeC {\'e}thode propos\IeC {\'e}e}{25}{subsection.2.0.2}
+\contentsline {subsubsection}{Le jeu de donn\IeC {\'e}es}{25}{section*.8}
+\contentsline {subsubsection}{Choix de l'algorithme}{26}{section*.9}
+\contentsline {subsection}{\numberline {2.0.3}D\IeC {\'e}marche}{27}{subsection.2.0.3}
+\contentsline {subsection}{\numberline {2.0.4}Probl\IeC {\'e}matiques restantes}{28}{subsection.2.0.4}
+\contentsline {subsection}{\numberline {2.0.5}Conclusion}{28}{subsection.2.0.5}
