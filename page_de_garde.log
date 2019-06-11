@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  10 JUN 2019 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  11 JUN 2019 07:11
 entering extended mode
 **./page_de_garde.tex
 (page_de_garde.tex
@@ -142,7 +142,7 @@ Overfull \hbox (37.88315pt too wide) in paragraph at lines 16--16
 
 ! Undefined control sequence.
 l.19     { \huge
-                 \bfseries MÃ©thodes d'analyse des processus mÃ©tier pour le...
+                 \bfseries Ã‰tude des mÃ©thodes de classification pour la dÃ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -150,19 +150,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no Ã in font cmssbx10!
-Missing character: There is no © in font cmssbx10!
+Missing character: There is no ‰ in font cmssbx10!
 Missing character: There is no Ã in font cmssbx10!
 Missing character: There is no © in font cmssbx10!
 Missing character: There is no Ã in font cmssbx10!
 Missing character: There is no © in font cmssbx10!
 
-Overfull \hbox (40.17519pt too wide) in paragraph at lines 19--19
- []\OT1/cmss/bx/n/10 Mthodes 
- []
-
-
-Overfull \hbox (41.66129pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 d'analyse 
+Overfull \hbox (20.37508pt too wide) in paragraph at lines 19--19
+ []\OT1/cmss/bx/n/10 tude 
  []
 
 
@@ -171,23 +166,43 @@ Overfull \hbox (14.93895pt too wide) in paragraph at lines 19--19
  []
 
 
-Overfull \hbox (18.19453pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 pro- 
+Overfull \hbox (21.9862pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 mth- 
  []
 
 
-Overfull \hbox (17.88342pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 ces- 
+Overfull \hbox (20.74454pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 odes 
  []
 
 
-Overfull \hbox (14.04451pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 sus 
+Overfull \hbox (10.72226pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 de 
  []
 
 
-Overfull \hbox (24.09732pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 mtier 
+Overfull \hbox (20.57788pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 clas- 
+ []
+
+
+Overfull \hbox (10.43893pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 si- 
+ []
+
+
+Overfull \hbox (9.52783pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 fi- 
+ []
+
+
+Overfull \hbox (13.80563pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 ca- 
+ []
+
+
+Overfull \hbox (17.7084pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 tion 
  []
 
 
@@ -196,53 +211,58 @@ Overfull \hbox (20.75009pt too wide) in paragraph at lines 19--19
  []
 
 
-Overfull \hbox (7.66669pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 le 
+Overfull \hbox (7.80559pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 la 
  []
 
 
-Overfull \hbox (23.55565pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 choix 
+Overfull \hbox (21.5501pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 dsig- 
  []
 
 
-Overfull \hbox (25.00009pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 d'une 
+Overfull \hbox (14.52785pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 na- 
  []
 
 
-Overfull \hbox (12.3334pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 ar- 
+Overfull \hbox (17.7084pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 tion 
  []
 
 
-Overfull \hbox (16.72229pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 chi- 
+Overfull \hbox (10.72226pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 de 
  []
 
 
-Overfull \hbox (17.70842pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 tec- 
+Overfull \hbox (17.94453pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 par- 
  []
 
 
-Overfull \hbox (18.48619pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 ture 
+Overfull \hbox (23.93901pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 cours 
  []
 
 
-Overfull \hbox (15.38896pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 Big 
+Overfull \hbox (17.4445pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 uni- 
  []
 
 
-Overfull \hbox (22.48624pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 Data 
+Overfull \hbox (17.50008pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 ver- 
  []
 
 
-Overfull \hbox (30.87514pt too wide) in paragraph at lines 19--19
- \OT1/cmss/bx/n/10 adapte 
+Overfull \hbox (10.43893pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 si- 
+ []
+
+
+Overfull \hbox (20.68065pt too wide) in paragraph at lines 19--19
+ \OT1/cmss/bx/n/10 taire 
  []
 
 ! Undefined control sequence.
@@ -404,5 +424,5 @@ Here is how much of TeX's memory you used:
  3674 multiletter control sequences out of 15000+200000
  4896 words of font info for 18 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,4n,12p,164b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,4n,12p,157b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
