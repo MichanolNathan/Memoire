@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  10 JUN 2019 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  15 JUN 2019 14:09
 entering extended mode
 **./Implementation.tex
 (Implementation.tex
@@ -725,14 +725,7 @@ Package: truncate 2001/08/20  ver 3.6
 \@Trunc@RestHyph=\toks28
 )
 \Changes@Len@summ=\skip55
-)
-\c@Changes@AddCountRMA=\count124
-\c@Changes@DeleteCountRMA=\count125
-\c@Changes@ReplaceCountRMA=\count126
-\c@Changes@AddCountLCO=\count127
-\c@Changes@DeleteCountLCO=\count128
-\c@Changes@ReplaceCountLCO=\count129
-)) (Implementation.aux)
+))) (Implementation.aux)
 \openout1 = `Implementation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -756,16 +749,16 @@ LaTeX Info: Redefining \up on input line 2.
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
+\scratchcounter=\count124
 \scratchdimen=\dimen132
 \scratchbox=\box31
-\nofMPsegments=\count131
-\nofMParguments=\count132
+\nofMPsegments=\count125
+\nofMParguments=\count126
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count133
+\MPscratchCnt=\count127
 \MPscratchDim=\dimen133
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks30
 )
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
@@ -794,7 +787,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 lestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count130
 )
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
@@ -839,10 +832,6 @@ LaTeX Info: Redefining \nameref on input line 2.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Chapitre 1.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 5.
-
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -858,18 +847,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {C:/Users/nathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<img/algo_table.png, id=39, 772.38562pt x 539.01375pt>
+<img/algo_table.png, id=43, 772.38562pt x 539.01375pt>
 File: img/algo_table.png Graphic file (type png)
 <use img/algo_table.png>
 Package pdftex.def Info: img/algo_table.png  used on input line 28.
 (pdftex.def)             Requested size: 463.43494pt x 323.41074pt.
  [2 <./img/algo_table.png>]
-<img/data_sample.png, id=49, 647.41875pt x 74.52844pt>
+<img/data_sample.png, id=52, 647.41875pt x 74.52844pt>
 File: img/data_sample.png Graphic file (type png)
 <use img/data_sample.png>
 Package pdftex.def Info: img/data_sample.png  used on input line 35.
 (pdftex.def)             Requested size: 453.19003pt x 52.16954pt.
-<img/result_kmeans.png, id=50, 322.95656pt x 122.70844pt>
+<img/result_kmeans.png, id=53, 322.95656pt x 122.70844pt>
 File: img/result_kmeans.png Graphic file (type png)
 <use img/result_kmeans.png>
 Package pdftex.def Info: img/result_kmeans.png  used on input line 42.
@@ -885,27 +874,35 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (Implementation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
-Package rerunfilecheck Info: File `Implementation.out' has not changed.
-(rerunfilecheck)             Checksum: 6F4F8B9122E1F9F6BEFA486CC1768A6C;420.
+
+
+Package rerunfilecheck Warning: File `Implementation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Implementation.out':
+(rerunfilecheck)             Before: 18232712923B3C761638E381072584BD;462
+(rerunfilecheck)             After:  AAF2EC6B06F5A48A67B2283D7FC96A15;530.
  ) 
 Here is how much of TeX's memory you used:
- 8882 strings out of 493305
- 130742 string characters out of 3129367
- 240241 words of memory out of 3000000
- 12272 multiletter control sequences out of 15000+200000
- 12099 words of font info for 32 fonts, out of 3000000 for 9000
+ 8849 strings out of 493305
+ 129906 string characters out of 3129367
+ 239861 words of memory out of 3000000
+ 12237 multiletter control sequences out of 15000+200000
+ 13644 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,41p,907b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,41p,907b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \eccc1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ectt1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\nathan\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nathan\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
-Output written on Implementation.pdf (5 pages, 207079 bytes).
+n\ec\dpi600\ecbx1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nathan\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\nathan\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\
+nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
+Output written on Implementation.pdf (5 pages, 210709 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
+ 286 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

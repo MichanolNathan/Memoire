@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  11 JUN 2019 07:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  15 JUN 2019 15:33
 entering extended mode
 **./memoire.tex
 (memoire.tex
@@ -714,47 +714,40 @@ Package: truncate 2001/08/20  ver 3.6
 \@Trunc@RestHyph=\toks28
 )
 \Changes@Len@summ=\skip55
-)
-\c@Changes@AddCountRMA=\count124
-\c@Changes@DeleteCountRMA=\count125
-\c@Changes@ReplaceCountRMA=\count126
-\c@Changes@AddCountLCO=\count127
-\c@Changes@DeleteCountLCO=\count128
-\c@Changes@ReplaceCountLCO=\count129
- (memoire.aux)
+) (memoire.aux)
 \openout1 = `memoire.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Info: Redefining \degres on input line 34.
-LaTeX Info: Redefining \dots on input line 34.
-LaTeX Info: Redefining \up on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Info: Redefining \degres on input line 27.
+LaTeX Info: Redefining \dots on input line 27.
+LaTeX Info: Redefining \up on input line 27.
 
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
+\scratchcounter=\count124
 \scratchdimen=\dimen132
 \scratchbox=\box31
-\nofMPsegments=\count131
-\nofMParguments=\count132
+\nofMPsegments=\count125
+\nofMParguments=\count126
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count133
+\MPscratchCnt=\count127
 \MPscratchDim=\dimen133
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks30
 )
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
@@ -773,7 +766,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 27.
 
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.
 sty"
@@ -783,11 +776,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 lestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count130
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
  (memoire.out) (memoire.out)
 \@outlinefile=\write3
 \openout3 = `memoire.out'.
@@ -845,7 +838,7 @@ LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <20.74> not available
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <17.28> not available
 (Font)              Font shape `T1/cmr/m/sc' tried instead on input line 16.
 
-<img/logo_nanterre.jpg, id=103, 619.31375pt x 133.49875pt>
+<img/logo_nanterre.jpg, id=107, 619.31375pt x 133.49875pt>
 File: img/logo_nanterre.jpg Graphic file (type jpg)
 <use img/logo_nanterre.jpg>
 Package pdftex.def Info: img/logo_nanterre.jpg  used on input line 22.
@@ -863,27 +856,37 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {C:/Users/nathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/logo
-_nanterre.jpg>] [2]) (remerciements.tex) (memoire.toc)
-\tf@toc=\write4
-\openout4 = `memoire.toc'.
-
- [3
+_nanterre.jpg>] [2]) (remerciements.tex) [3
 
 ] [4
 
-] (memoire.lof)
+] (memoire.toc)
+\tf@toc=\write4
+\openout4 = `memoire.toc'.
+
+ [5] [6
+
+]
+(memoire.lof)
 \tf@lof=\write5
 \openout5 = `memoire.lof'.
 
+ (Introduction.tex [7] [8
 
-(Introduction.tex [5] [6
+]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
-]) (etat_art.tex [7] [8
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
+("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)) (etat_art.tex [9] [10
 
 ]
 Chapitre 1.
-[9]
-<img/henry.png, id=211, 281.55188pt x 277.035pt>
+[11]
+<img/henry.png, id=232, 281.55188pt x 277.035pt>
 File: img/henry.png Graphic file (type png)
 <use img/henry.png>
 Package pdftex.def Info: img/henry.png  used on input line 30.
@@ -892,139 +895,142 @@ Package pdftex.def Info: img/henry.png  used on input line 30.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10]
-<img/euclidienne_distance.png, id=219, 247.67531pt x 97.86563pt>
+[12]
+<img/euclidienne_distance.png, id=240, 247.67531pt x 97.86563pt>
 File: img/euclidienne_distance.png Graphic file (type png)
 <use img/euclidienne_distance.png>
 Package pdftex.def Info: img/euclidienne_distance.png  used on input line 42.
 (pdftex.def)             Requested size: 198.1405pt x 78.29259pt.
-<img/manhatan_distance.png, id=220, 216.81pt x 36.135pt>
+<img/manhatan_distance.png, id=241, 216.81pt x 36.135pt>
 File: img/manhatan_distance.png Graphic file (type png)
 <use img/manhatan_distance.png>
 Package pdftex.def Info: img/manhatan_distance.png  used on input line 48.
 (pdftex.def)             Requested size: 173.44823pt x 28.90802pt.
- [11 <./img/henry.png> <./img/euclidienne_distance.png> <./img/manhatan_distanc
-e.png>] [12]
-<img/hierarchical_clustering.png, id=239, 264.23718pt x 268.00125pt>
+ [13 <./img/henry.png> <./img/euclidienne_distance.png> <./img/manhatan_distanc
+e.png>] [14]
+<img/well_separated.png, id=257, 264.99pt x 247.67531pt>
+File: img/well_separated.png Graphic file (type png)
+<use img/well_separated.png>
+Package pdftex.def Info: img/well_separated.png  used on input line 63.
+(pdftex.def)             Requested size: 132.49467pt x 123.83734pt.
+<img/prim.png, id=258, 373.395pt x 228.855pt>
+File: img/prim.png Graphic file (type png)
+<use img/prim.png>
+Package pdftex.def Info: img/prim.png  used on input line 73.
+(pdftex.def)             Requested size: 298.7164pt x 183.08423pt.
+ [15 <./img/well_separated.png>] [16 <./img/prim.png>]
+<img/density_cluster.png, id=271, 324.46219pt x 298.11375pt>
+File: img/density_cluster.png Graphic file (type png)
+<use img/density_cluster.png>
+Package pdftex.def Info: img/density_cluster.png  used on input line 82.
+(pdftex.def)             Requested size: 259.57008pt x 238.49132pt.
+ [17 <./img/density_cluster.png>]
+<img/hierarchical_clustering.png, id=282, 264.23718pt x 268.00125pt>
 File: img/hierarchical_clustering.png Graphic file (type png)
 <use img/hierarchical_clustering.png>
-Package pdftex.def Info: img/hierarchical_clustering.png  used on input line 65
-.
-(pdftex.def)             Requested size: 211.39001pt x 214.40128pt.
+Package pdftex.def Info: img/hierarchical_clustering.png  used on input line 10
+0.
+(pdftex.def)             Requested size: 132.11826pt x 134.00029pt.
+ [18] [19 <./img/hierarchical_clustering.png>]
+<img/fuzzy_algo.png, id=297, 289.08pt x 76.78688pt>
+File: img/fuzzy_algo.png Graphic file (type png)
+<use img/fuzzy_algo.png>
+Package pdftex.def Info: img/fuzzy_algo.png  used on input line 108.
+(pdftex.def)             Requested size: 231.2643pt x 61.42957pt.
+<img/cobweb.png, id=304, 654.19406pt x 258.9675pt>
+File: img/cobweb.png Graphic file (type png)
+<use img/cobweb.png>
+Package pdftex.def Info: img/cobweb.png  used on input line 127.
+(pdftex.def)             Requested size: 457.93272pt x 181.27599pt.
+ [20 <./img/fuzzy_algo.png>]
+<img/kruskal.png, id=313, 408.02437pt x 221.32687pt>
+File: img/kruskal.png Graphic file (type png)
+<use img/kruskal.png>
+Package pdftex.def Info: img/kruskal.png  used on input line 134.
+(pdftex.def)             Requested size: 326.41994pt x 177.06172pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13]
-<img/fuzzy_algo.png, id=250, 289.08pt x 76.78688pt>
-File: img/fuzzy_algo.png Graphic file (type png)
-<use img/fuzzy_algo.png>
-Package pdftex.def Info: img/fuzzy_algo.png  used on input line 73.
-(pdftex.def)             Requested size: 231.2643pt x 61.42957pt.
- [14 <./img/hierarchical_clustering.png> <./img/fuzzy_algo.png>]
-<img/cobweb.png, id=265, 654.19406pt x 258.9675pt>
-File: img/cobweb.png Graphic file (type png)
-<use img/cobweb.png>
-Package pdftex.def Info: img/cobweb.png  used on input line 94.
-(pdftex.def)             Requested size: 457.93272pt x 181.27599pt.
- [15 <./img/cobweb.png>]
-<img/well_separated.png, id=273, 264.99pt x 247.67531pt>
-File: img/well_separated.png Graphic file (type png)
-<use img/well_separated.png>
-Package pdftex.def Info: img/well_separated.png  used on input line 106.
-(pdftex.def)             Requested size: 211.99228pt x 198.1405pt.
- [16 <./img/well_separated.png>]
-<img/prim.png, id=279, 373.395pt x 228.855pt>
-File: img/prim.png Graphic file (type png)
-<use img/prim.png>
-Package pdftex.def Info: img/prim.png  used on input line 116.
-(pdftex.def)             Requested size: 298.7164pt x 183.08423pt.
- [17 <./img/prim.png>]
-<img/kruskal.png, id=286, 408.02437pt x 221.32687pt>
-File: img/kruskal.png Graphic file (type png)
-<use img/kruskal.png>
-Package pdftex.def Info: img/kruskal.png  used on input line 124.
-(pdftex.def)             Requested size: 326.41994pt x 177.06172pt.
- [18 <./img/kruskal.png>]
-<img/density_cluster.png, id=293, 324.46219pt x 298.11375pt>
-File: img/density_cluster.png Graphic file (type png)
-<use img/density_cluster.png>
-Package pdftex.def Info: img/density_cluster.png  used on input line 131.
-(pdftex.def)             Requested size: 259.57008pt x 238.49132pt.
- [19 <./img/density_cluster.png>] [20] [21]
-<img/dbscan.png, id=317, 487.8225pt x 472.01344pt>
+[21 <./img/cobweb.png>] [22 <./img/kruskal.png>] [23]
+<img/dbscan.png, id=338, 487.8225pt x 472.01344pt>
 File: img/dbscan.png Graphic file (type png)
 <use img/dbscan.png>
 Package pdftex.def Info: img/dbscan.png  used on input line 175.
-(pdftex.def)             Requested size: 390.25853pt x 377.61127pt.
-) (Implementation.tex
-Overfull \hbox (10.39786pt too wide) in paragraph at lines 172--3
+(pdftex.def)             Requested size: 243.91064pt x 236.00613pt.
+
+Overfull \hbox (10.39786pt too wide) in paragraph at lines 172--180
 \T1/cmr/m/n/12 struc-tures au sein d'un jeu de don-nées. Celui-ci peut être ex-
 primé en peudo-code.(figure
  []
 
-[22 <./img/dbscan.png>] [23] [24
+<img/comparatif_methodes.png, id=340, 500.62032pt x 359.84438pt>
+File: img/comparatif_methodes.png Graphic file (type png)
+<use img/comparatif_methodes.png>
+Package pdftex.def Info: img/comparatif_methodes.png  used on input line 185.
+(pdftex.def)             Requested size: 350.43182pt x 251.88934pt.
+[24 <./img/dbscan.png>] [25 <./img/comparatif_methodes.png>]
+<img/comparatif_methodes_2.png, id=354, 505.13719pt x 176.91093pt>
+File: img/comparatif_methodes_2.png Graphic file (type png)
+<use img/comparatif_methodes_2.png>
+Package pdftex.def Info: img/comparatif_methodes_2.png  used on input line 198.
+
+(pdftex.def)             Requested size: 353.59361pt x 123.83679pt.
+)
+(Implementation.tex [26 <./img/comparatif_methodes_2.png>]
+Chapitre 2.
+[27
 
 ]
-Chapitre 2.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 5.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
-("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-[25]
-<img/algo_table.png, id=342, 772.38562pt x 539.01375pt>
+<img/algo_table.png, id=365, 772.38562pt x 539.01375pt>
 File: img/algo_table.png Graphic file (type png)
 <use img/algo_table.png>
 Package pdftex.def Info: img/algo_table.png  used on input line 28.
 (pdftex.def)             Requested size: 463.43494pt x 323.41074pt.
- [26 <./img/algo_table.png>]
-<img/data_sample.png, id=349, 647.41875pt x 74.52844pt>
+ [28 <./img/algo_table.png>]
+<img/data_sample.png, id=371, 647.41875pt x 74.52844pt>
 File: img/data_sample.png Graphic file (type png)
 <use img/data_sample.png>
 Package pdftex.def Info: img/data_sample.png  used on input line 35.
 (pdftex.def)             Requested size: 453.19003pt x 52.16954pt.
-<img/result_kmeans.png, id=350, 322.95656pt x 122.70844pt>
+<img/result_kmeans.png, id=372, 322.95656pt x 122.70844pt>
 File: img/result_kmeans.png Graphic file (type png)
 <use img/result_kmeans.png>
 Package pdftex.def Info: img/result_kmeans.png  used on input line 42.
 (pdftex.def)             Requested size: 226.06804pt x 85.89531pt.
- [27 <./img/data_sample.png> <./img/result_kmeans.png>] [28]) (memoire.bbl [29]
- [30
+ [29 <./img/data_sample.png> <./img/result_kmeans.png>] [30]) (memoire.bbl [31]
+ [32
 
 ])
 \Changes@OutFile=\write6
 \openout6 = `memoire.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
- [31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
+ [33]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
  (memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 7F0B2B4EC85A76028713046939DF3D8B;1866.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+(rerunfilecheck)             Checksum: 0CBC18164437BAC0701F96CB1B5CB2AA;1907.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 9129 strings out of 493305
- 134546 string characters out of 3129367
- 240494 words of memory out of 3000000
- 12392 multiletter control sequences out of 15000+200000
+ 9108 strings out of 493305
+ 134028 string characters out of 3129367
+ 240108 words of memory out of 3000000
+ 12365 multiletter control sequences out of 15000+200000
  20260 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,8n,39p,2266b,565s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,39p,2266b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ectt1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecti1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nathan\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\nathan\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\
-nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk>
+\ecti1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\eccc1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\nathan\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\nathan\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\
+nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>
  <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
 cbx2488.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi600\ecss1440.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
@@ -1037,9 +1043,9 @@ than\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk><C
 /cmmi12.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmmi8.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on memoire.pdf (31 pages, 984889 bytes).
+Output written on memoire.pdf (33 pages, 1027044 bytes).
 PDF statistics:
- 870 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 901 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 294 words of extra memory for PDF output out of 10000 (max. 10000000)
 

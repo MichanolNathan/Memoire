@@ -2,13 +2,13 @@
 \begin{document}
 \chapter{Implémentation}
 
-\subsection{Objectifs}
+\section{Objectifs}
 
 Notre but étant de pouvoir proposer aux étudiants de première année les éventuelles voix qu'ils sont susceptibles de poursuivre tout au long de leurs études. Le premier objectif de cette étude est dans un premier temps de pouvoir trier les cursus des étudiants précédents en fonction des filières que ceux-ci ont suivies. Cette première phase de catégorisation nous permettra par la suite de conditionner l'algorithme utilisé. Cependant, la réelle problématique est que pour un CV donné, il sera nécessaire de prendre en considération chaque ligne du parcours d'un ancien étudiant comme une occurrence unique et trouver une méthode permettant de représenter graphiquement l'ensemble de celles-ci afin de pouvoir représenter un parcours professionnel.
 
-\subsection{Méthode proposée}
+\section{Méthode proposée}
 
-\subsubsection{Le jeu de données}
+\subsection{Le jeu de données}
 
 Pour cette étude, le jeu de données utilisé contiendra environ 2000 CV  d'un projet pouvant être trouvé à l'adresse suivante : \begin{itemize}
 \item \url{https://github.com/JAIJANYANI/Automated-Resume-Screening-System}
@@ -16,7 +16,7 @@ Pour cette étude, le jeu de données utilisé contiendra environ 2000 CV  d'un 
 Un premier tri a été effectué afin de filtrer les documents en fonction du format utiliser afin de ne retenir que ceux au format \textbf{.doc} ou \textbf{.docx} pour faciliter les traitements visant ensuite à les classifier. En outre, ce premier tri permettra par la suite de minimiser la charge de calcul afin que les étapes de traitement et d'analyse ne soient pas impactées par un temps de traitement trop important. À noter que bien que cette première étape de tri aurait pu être réalisée de façon manuelle, l'objectif final étant de proposer cette solution sous la forme d'un programme, il est plus intéressant que cette phase de tri puisse s'effectuer de façon automatique une fois le jeu de données fourni.
 
 \newpage
-\subsubsection{Choix de l'algorithme}
+\subsection{Choix de l'algorithme}
 Afin de pouvoir choisir l'algorithme le plus adapté à notre cas, celui-ci doit pouvoir répondre aux critères suivant : \begin{itemize}
 \item Capacité à traiter des documents
 \item Capacité à gérer une montée en charge
@@ -52,7 +52,7 @@ Nous avons pu voir qu’il existe une multitude de méthodes applicables afin d�
 Ce projet aurait pu représenter une solution possible. Celui-ci renvoie une chaine de caractère au format JSON contenant les différentes rubriques découpées. Malencontreusement, ce projet n’est plus fonctionnel ni maintenu par son créateur.
 La seconde problématique restante vient du fait que pour notre cas d’étude, une fois les différents parcours universitaires ainsi que le secteur occupé ont été classifiés, afin de pouvoir modéliser ces trajectoires sous forme graphique, il serait nécessaire de pouvoir récupérer le contenu d’un objet lui-même contenu dans un cluster donné et pouvoir considérer chaque ligne comme un objet unique afin de pouvoir modéliser celle-ci sous forme de point. Cette seconde problématique est par conséquent fortement liée à la première de par le fait qu’il est nécessaire dans un premier temps de pouvoir traiter les différentes rubriques d’un document une à une et d’être en mesure de ne récupérer que des données pertinentes.
 
-\subsection{Conclusion}
+\section{Conclusion}
 Dans ce mémoire, nous avons présenté les différentes méthodes de clustering, dont le clustering par partitionnement qui semble correspondre à notre cas. Toutefois, le clustering hiérarchique reste prometteur. Cependant le traitement des objets clusterisés et le découpage de document ont entrainé la rencontre de nouvelle problématique durant cette étude.\\
 L'analyse de données étant un élément essentiel de domaine qui de nos jours possède une forte popularité tel que le Big data. Les méthodes de clustering utilisées dans ce domaine représentent une opportunité prometteuse pour notre problématique. En effet, celles-ci nous permettent dans un premier temps d'ordonner nos données afin de pouvoir en dégager les populations principales. Cette première étape de classification et représentation des données permet ensuite de faciliter les différents traitements.\\
 Dans la dernière partie, nous avons présenté la première partie d'une méthode visant à tirer profit de la classification obtenue à travers des processus de clustering. Plus particulièrement, nous avons eu recours à un clustering par partitionnement afin de pouvoir identifier les différentes populations. De plus, le type de cluster utilisé est "well-separated", ce qui nous évite d'avoir des objets pouvant se trouver dans plusieurs clusters. Cependant, cette méthode pose de nouvelles problématiques dans le cas de parcours contenant plusieurs filières et n'est par conséquent pas la plus idéale.Toutefois, il reste encore une partie conséquente de l'implémentation regardant l'extraction de texte à réaliser.

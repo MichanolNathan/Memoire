@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  10 JUN 2019 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  15 JUN 2019 14:23
 entering extended mode
 **./etat_art.tex
 (etat_art.tex
@@ -725,14 +725,7 @@ Package: truncate 2001/08/20  ver 3.6
 \@Trunc@RestHyph=\toks28
 )
 \Changes@Len@summ=\skip55
-)
-\c@Changes@AddCountRMA=\count124
-\c@Changes@DeleteCountRMA=\count125
-\c@Changes@ReplaceCountRMA=\count126
-\c@Changes@AddCountLCO=\count127
-\c@Changes@DeleteCountLCO=\count128
-\c@Changes@ReplaceCountLCO=\count129
-)) (etat_art.aux)
+))) (etat_art.aux)
 \openout1 = `etat_art.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -756,16 +749,16 @@ LaTeX Info: Redefining \up on input line 2.
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
+\scratchcounter=\count124
 \scratchdimen=\dimen132
 \scratchbox=\box31
-\nofMPsegments=\count131
-\nofMParguments=\count132
+\nofMPsegments=\count125
+\nofMParguments=\count126
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count133
+\MPscratchCnt=\count127
 \MPscratchDim=\dimen133
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks30
 )
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
@@ -794,7 +787,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 lestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count130
 )
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
@@ -846,7 +839,7 @@ LaTeX Warning: Citation `ref9' on page 1 undefined on input line 13.
 
 
 {C:/Users/nathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<img/henry.png, id=89, 281.55188pt x 277.035pt>
+<img/henry.png, id=85, 281.55188pt x 277.035pt>
 File: img/henry.png Graphic file (type png)
 <use img/henry.png>
 Package pdftex.def Info: img/henry.png  used on input line 30.
@@ -856,7 +849,7 @@ Package pdftex.def Info: img/henry.png  used on input line 30.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2]
-<img/euclidienne_distance.png, id=97, 247.67531pt x 97.86563pt>
+<img/euclidienne_distance.png, id=93, 247.67531pt x 97.86563pt>
 File: img/euclidienne_distance.png Graphic file (type png)
 <use img/euclidienne_distance.png>
 Package pdftex.def Info: img/euclidienne_distance.png  used on input line 42.
@@ -867,106 +860,104 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 46.
-<img/manhatan_distance.png, id=98, 216.81pt x 36.135pt>
+<img/manhatan_distance.png, id=94, 216.81pt x 36.135pt>
 File: img/manhatan_distance.png Graphic file (type png)
 <use img/manhatan_distance.png>
 Package pdftex.def Info: img/manhatan_distance.png  used on input line 48.
 (pdftex.def)             Requested size: 173.44823pt x 28.90802pt.
  [3 <./img/henry.png> <./img/euclidienne_distance.png> <./img/manhatan_distance
 .png>] [4]
+<img/well_separated.png, id=112, 264.99pt x 247.67531pt>
+File: img/well_separated.png Graphic file (type png)
+<use img/well_separated.png>
+Package pdftex.def Info: img/well_separated.png  used on input line 63.
+(pdftex.def)             Requested size: 132.49467pt x 123.83734pt.
+<img/prim.png, id=113, 373.395pt x 228.855pt>
+File: img/prim.png Graphic file (type png)
+<use img/prim.png>
+Package pdftex.def Info: img/prim.png  used on input line 73.
+(pdftex.def)             Requested size: 298.7164pt x 183.08423pt.
+ [5 <./img/well_separated.png>] [6 <./img/prim.png>]
 
-LaTeX Warning: Citation `ref4' on page 5 undefined on input line 55.
+LaTeX Warning: Citation `ref4' on page 7 undefined on input line 80.
+
+<img/density_cluster.png, id=127, 324.46219pt x 298.11375pt>
+File: img/density_cluster.png Graphic file (type png)
+<use img/density_cluster.png>
+Package pdftex.def Info: img/density_cluster.png  used on input line 82.
+(pdftex.def)             Requested size: 259.57008pt x 238.49132pt.
+[7 <./img/density_cluster.png>]
+
+LaTeX Warning: Citation `ref4' on page 8 undefined on input line 90.
 
 
-LaTeX Warning: Citation `ref8' on page 5 undefined on input line 55.
+LaTeX Warning: Citation `ref8' on page 8 undefined on input line 90.
 
 
-LaTeX Warning: Citation `ref7' on page 5 undefined on input line 63.
+LaTeX Warning: Citation `ref7' on page 8 undefined on input line 98.
 
 
-LaTeX Warning: Citation `ref5' on page 5 undefined on input line 63.
+LaTeX Warning: Citation `ref5' on page 8 undefined on input line 98.
 
-<img/hierarchical_clustering.png, id=116, 264.23718pt x 268.00125pt>
+<img/hierarchical_clustering.png, id=135, 264.23718pt x 268.00125pt>
 File: img/hierarchical_clustering.png Graphic file (type png)
 <use img/hierarchical_clustering.png>
-Package pdftex.def Info: img/hierarchical_clustering.png  used on input line 65
-.
-(pdftex.def)             Requested size: 211.39001pt x 214.40128pt.
+Package pdftex.def Info: img/hierarchical_clustering.png  used on input line 10
+0.
+(pdftex.def)             Requested size: 132.11826pt x 134.00029pt.
+[8] [9 <./img/hierarchical_clustering.png>]
+
+LaTeX Warning: Citation `ref8' on page 10 undefined on input line 106.
+
+<img/fuzzy_algo.png, id=146, 289.08pt x 76.78688pt>
+File: img/fuzzy_algo.png Graphic file (type png)
+<use img/fuzzy_algo.png>
+Package pdftex.def Info: img/fuzzy_algo.png  used on input line 108.
+(pdftex.def)             Requested size: 231.2643pt x 61.42957pt.
+
+LaTeX Warning: Citation `ref13' on page 10 undefined on input line 115.
+
+
+LaTeX Warning: Citation `ref10' on page 10 undefined on input line 119.
+
+
+LaTeX Warning: Citation `ref8' on page 10 undefined on input line 119.
+
+
+LaTeX Warning: Citation `ref11' on page 10 undefined on input line 122.
+
+
+LaTeX Warning: Citation `ref8' on page 10 undefined on input line 124.
+
+
+LaTeX Warning: Citation `ref14' on page 10 undefined on input line 125.
+
+<img/cobweb.png, id=147, 654.19406pt x 258.9675pt>
+File: img/cobweb.png Graphic file (type png)
+<use img/cobweb.png>
+Package pdftex.def Info: img/cobweb.png  used on input line 127.
+(pdftex.def)             Requested size: 457.93272pt x 181.27599pt.
+[10 <./img/fuzzy_algo.png>]
+<img/kruskal.png, id=156, 408.02437pt x 221.32687pt>
+File: img/kruskal.png Graphic file (type png)
+<use img/kruskal.png>
+Package pdftex.def Info: img/kruskal.png  used on input line 134.
+(pdftex.def)             Requested size: 326.41994pt x 177.06172pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5]
-
-LaTeX Warning: Citation `ref8' on page 6 undefined on input line 71.
-
-<img/fuzzy_algo.png, id=121, 289.08pt x 76.78688pt>
-File: img/fuzzy_algo.png Graphic file (type png)
-<use img/fuzzy_algo.png>
-Package pdftex.def Info: img/fuzzy_algo.png  used on input line 73.
-(pdftex.def)             Requested size: 231.2643pt x 61.42957pt.
-
-LaTeX Warning: Citation `ref13' on page 6 undefined on input line 80.
-
-[6 <./img/hierarchical_clustering.png> <./img/fuzzy_algo.png>]
-
-LaTeX Warning: Citation `ref10' on page 7 undefined on input line 86.
-
-
-LaTeX Warning: Citation `ref8' on page 7 undefined on input line 86.
-
-
-LaTeX Warning: Citation `ref11' on page 7 undefined on input line 89.
-
-
-LaTeX Warning: Citation `ref8' on page 7 undefined on input line 91.
-
-
-LaTeX Warning: Citation `ref14' on page 7 undefined on input line 92.
-
-<img/cobweb.png, id=131, 654.19406pt x 258.9675pt>
-File: img/cobweb.png Graphic file (type png)
-<use img/cobweb.png>
-Package pdftex.def Info: img/cobweb.png  used on input line 94.
-(pdftex.def)             Requested size: 457.93272pt x 181.27599pt.
-[7 <./img/cobweb.png>]
-<img/well_separated.png, id=138, 264.99pt x 247.67531pt>
-File: img/well_separated.png Graphic file (type png)
-<use img/well_separated.png>
-Package pdftex.def Info: img/well_separated.png  used on input line 106.
-(pdftex.def)             Requested size: 211.99228pt x 198.1405pt.
- [8 <./img/well_separated.png>]
-<img/prim.png, id=145, 373.395pt x 228.855pt>
-File: img/prim.png Graphic file (type png)
-<use img/prim.png>
-Package pdftex.def Info: img/prim.png  used on input line 116.
-(pdftex.def)             Requested size: 298.7164pt x 183.08423pt.
- [9 <./img/prim.png>]
-<img/kruskal.png, id=153, 408.02437pt x 221.32687pt>
-File: img/kruskal.png Graphic file (type png)
-<use img/kruskal.png>
-Package pdftex.def Info: img/kruskal.png  used on input line 124.
-(pdftex.def)             Requested size: 326.41994pt x 177.06172pt.
-
-[10 <./img/kruskal.png>]
-
-LaTeX Warning: Citation `ref4' on page 11 undefined on input line 129.
-
-<img/density_cluster.png, id=160, 324.46219pt x 298.11375pt>
-File: img/density_cluster.png Graphic file (type png)
-<use img/density_cluster.png>
-Package pdftex.def Info: img/density_cluster.png  used on input line 131.
-(pdftex.def)             Requested size: 259.57008pt x 238.49132pt.
-[11 <./img/density_cluster.png>]
+[11 <./img/cobweb.png>]
 
 LaTeX Warning: Citation `ref5' on page 12 undefined on input line 146.
 
+[12 <./img/kruskal.png>]
 
-LaTeX Warning: Citation `ref15' on page 12 undefined on input line 156.
+LaTeX Warning: Citation `ref15' on page 13 undefined on input line 156.
 
 
-LaTeX Warning: Citation `ref4' on page 12 undefined on input line 161.
+LaTeX Warning: Citation `ref4' on page 13 undefined on input line 161.
 
-[12]
 
 LaTeX Warning: Citation `ref10' on page 13 undefined on input line 167.
 
@@ -977,59 +968,89 @@ LaTeX Warning: Citation `ref16' on page 13 undefined on input line 167.
 
 LaTeX Warning: Citation `ref12' on page 14 undefined on input line 172.
 
-<img/dbscan.png, id=177, 487.8225pt x 472.01344pt>
+<img/dbscan.png, id=176, 487.8225pt x 472.01344pt>
 File: img/dbscan.png Graphic file (type png)
 <use img/dbscan.png>
 Package pdftex.def Info: img/dbscan.png  used on input line 175.
-(pdftex.def)             Requested size: 390.25853pt x 377.61127pt.
+(pdftex.def)             Requested size: 243.91064pt x 236.00613pt.
 
 LaTeX Warning: Citation `ref17' on page 14 undefined on input line 179.
 
-\Changes@OutFile=\write4
-\openout4 = `etat_art.soc'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
 
 Overfull \hbox (10.39786pt too wide) in paragraph at lines 172--180
 \T1/cmr/m/n/12 struc-tures au sein d'un jeu de don-nées. Celui-ci peut être ex-
 primé en peudo-code.(figure
  []
 
-[14 <./img/dbscan.png>] [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
- (etat_art.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
-Package rerunfilecheck Info: File `etat_art.out' has not changed.
-(rerunfilecheck)             Checksum: CE41E4D622721B482D5120C586D86D53;1440.
+<img/comparatif_methodes.png, id=177, 500.62032pt x 359.84438pt>
+File: img/comparatif_methodes.png Graphic file (type png)
+<use img/comparatif_methodes.png>
+Package pdftex.def Info: img/comparatif_methodes.png  used on input line 185.
+(pdftex.def)             Requested size: 350.43182pt x 251.88934pt.
+[14 <./img/dbscan.png>] [15 <./img/comparatif_methodes.png>]
+<img/comparatif_methodes_2.png, id=191, 505.13719pt x 176.91093pt>
+File: img/comparatif_methodes_2.png Graphic file (type png)
+<use img/comparatif_methodes_2.png>
+Package pdftex.def Info: img/comparatif_methodes_2.png  used on input line 198.
 
+(pdftex.def)             Requested size: 353.59361pt x 123.83679pt.
+\Changes@OutFile=\write4
+\openout4 = `etat_art.soc'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+ [16 <./img/comparatif_methodes_2.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+ (etat_art.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
+
+
+Package rerunfilecheck Warning: File `etat_art.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `etat_art.out':
+(rerunfilecheck)             Before: 9F20612DA59BE6B4F786D025F40B60CB;1354
+(rerunfilecheck)             After:  908642C606EE533996966E23C16904CF;1369.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8969 strings out of 493305
- 131644 string characters out of 3129367
- 240242 words of memory out of 3000000
- 12319 multiletter control sequences out of 15000+200000
+ 8946 strings out of 493305
+ 131133 string characters out of 3129367
+ 239856 words of memory out of 3000000
+ 12288 multiletter control sequences out of 15000+200000
  14015 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,41p,2244b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecti1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\eccc1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nathan\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\nathan\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\
-nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
-<C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on etat_art.pdf (15 pages, 695161 bytes).
+ 41i,8n,41p,2244b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsection.1.3.7} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+ <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+cti1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\eccc1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nathan\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\nathan\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\na
+than\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><C
+:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on etat_art.pdf (16 pages, 732271 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
