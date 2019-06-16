@@ -18,9 +18,10 @@
 \BOOKMARK [1][-]{section.1.5}{Analyse et conclusion}{chapter.1}% 18
 \BOOKMARK [0][-]{chapter.2}{Impl\351mentation}{}% 19
 \BOOKMARK [1][-]{section.2.1}{Objectifs}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.2}{M\351thode propos\351e}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.2}{Pr\351paration et caract\351risation des donn\351es}{chapter.2}% 21
 \BOOKMARK [2][-]{subsection.2.2.1}{Le jeu de donn\351es}{section.2.2}% 22
 \BOOKMARK [2][-]{subsection.2.2.2}{Choix de l'algorithme}{section.2.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.3}{D\351marche}{section.2.2}% 24
-\BOOKMARK [2][-]{subsection.2.2.4}{Probl\351matiques restantes}{section.2.2}% 25
-\BOOKMARK [1][-]{section.2.3}{Conclusion}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.3}{Caract\351risation et classification des parcours}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.3.1}{D\351marche}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.2}{Probl\351matiques restantes}{section.2.3}% 26
+\BOOKMARK [1][-]{section.2.4}{Conclusion}{chapter.2}% 27

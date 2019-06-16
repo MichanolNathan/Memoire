@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  15 JUN 2019 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  16 JUN 2019 15:17
 entering extended mode
 **./Implementation.tex
 (Implementation.tex
@@ -832,66 +832,63 @@ LaTeX Info: Redefining \nameref on input line 2.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Chapitre 1.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 18.
 ("C:\Users\nathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 18.
 
 [1
 
 
 {C:/Users/nathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<img/algo_table.png, id=43, 772.38562pt x 539.01375pt>
+<img/algo_table.png, id=51, 772.38562pt x 539.01375pt>
 File: img/algo_table.png Graphic file (type png)
 <use img/algo_table.png>
-Package pdftex.def Info: img/algo_table.png  used on input line 28.
+Package pdftex.def Info: img/algo_table.png  used on input line 38.
 (pdftex.def)             Requested size: 463.43494pt x 323.41074pt.
  [2 <./img/algo_table.png>]
-<img/data_sample.png, id=52, 647.41875pt x 74.52844pt>
+<img/data_sample.png, id=60, 647.41875pt x 74.52844pt>
 File: img/data_sample.png Graphic file (type png)
 <use img/data_sample.png>
-Package pdftex.def Info: img/data_sample.png  used on input line 35.
+Package pdftex.def Info: img/data_sample.png  used on input line 46.
 (pdftex.def)             Requested size: 453.19003pt x 52.16954pt.
-<img/result_kmeans.png, id=53, 322.95656pt x 122.70844pt>
+<img/result_kmeans.png, id=61, 271.76532pt x 79.79813pt>
 File: img/result_kmeans.png Graphic file (type png)
 <use img/result_kmeans.png>
-Package pdftex.def Info: img/result_kmeans.png  used on input line 42.
-(pdftex.def)             Requested size: 226.06804pt x 85.89531pt.
- [3 <./img/data_sample.png> <./img/result_kmeans.png>]
+Package pdftex.def Info: img/result_kmeans.png  used on input line 53.
+(pdftex.def)             Requested size: 190.23442pt x 55.85829pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./img/data_sample.png>] [4 <./img/result_kmeans.png>] [5]
 \Changes@OutFile=\write4
 \openout4 = `Implementation.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 
-[4] [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
- (Implementation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
-
-
-Package rerunfilecheck Warning: File `Implementation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Implementation.out':
-(rerunfilecheck)             Before: 18232712923B3C761638E381072584BD;462
-(rerunfilecheck)             After:  AAF2EC6B06F5A48A67B2283D7FC96A15;530.
+(Implementation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package rerunfilecheck Info: File `Implementation.out' has not changed.
+(rerunfilecheck)             Checksum: 6382DDA74EB79AE205B4C2A5A9D9F662;655.
  ) 
 Here is how much of TeX's memory you used:
- 8849 strings out of 493305
- 129906 string characters out of 3129367
- 239861 words of memory out of 3000000
- 12237 multiletter control sequences out of 15000+200000
+ 8856 strings out of 493305
+ 129982 string characters out of 3129367
+ 238864 words of memory out of 3000000
+ 12241 multiletter control sequences out of 15000+200000
  13644 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,41p,907b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,41p,1071b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \eccc1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\ecbx1200.pk> <C:\Users\nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
@@ -900,9 +897,10 @@ onts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nathan\AppData\Local\M
 iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\nathan\AppD
 ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\
 nathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
-Output written on Implementation.pdf (5 pages, 210709 bytes).
+
+Output written on Implementation.pdf (6 pages, 216750 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
