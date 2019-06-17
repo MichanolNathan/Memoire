@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  16 JUN 2019 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.24)  17 JUN 2019 18:13
 entering extended mode
 **./memoire.tex
 (memoire.tex
@@ -1023,7 +1023,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
 Here is how much of TeX's memory you used:
  9111 strings out of 493305
  134063 string characters out of 3129367
- 240111 words of memory out of 3000000
+ 241111 words of memory out of 3000000
  12366 multiletter control sequences out of 15000+200000
  20260 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1048,9 +1048,9 @@ than\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk><C
 /cmmi12.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmmi8.pfb><C:/Users/nathan/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on memoire.pdf (33 pages, 1028766 bytes).
+Output written on memoire.pdf (33 pages, 1029080 bytes).
 PDF statistics:
- 906 PDF objects out of 1000 (max. 8388607)
+ 907 PDF objects out of 1000 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)
  302 words of extra memory for PDF output out of 10000 (max. 10000000)
 

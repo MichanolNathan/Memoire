@@ -23,7 +23,7 @@ Celui-ci contient différents CV au format PDF,DOC et docx. La majorité de ces 
 \item Loisirs et autre
 \end{itemize}
 À noter, bien que cette structure soit la plus récurrente, l'ordre des différentes sections peut tout de même changer en fonction des documents.\\
-Un premier tri a été effectué afin de filtrer les documents en fonction du format utiliser afin de ne retenir que ceux au format \textbf{.doc} ou \textbf{.docx} pour faciliter les traitements visant ensuite à les classifier. En outre, ce premier tri permettra par la suite de minimiser la charge de calcul afin que les étapes de traitement et d'analyse ne soient pas impactées par un temps de traitement trop important. À noter que bien que cette première étape de tri puisse être réalisée de façon manuelle. L'objectif final étant de proposer cette solution sous la forme d'un programme, il est plus intéressant que cette phase de tri puisse s'effectuer de façon automatique une fois le jeu de données fourni.
+Un premier tri a été effectué afin de filtrer les documents en fonction de leur format afin de ne retenir que ceux au format \textbf{.doc} ou \textbf{.docx} afin de faciliter les traitements visant ensuite à les classifier. En outre, ce premier tri permettra par la suite de minimiser la charge de calcul afin que les étapes de traitement et d'analyse ne soient pas impactées par un temps de traitement trop important. À noter que bien que cette première étape de tri puisse être réalisée de façon manuelle. L'objectif final étant de proposer cette solution sous la forme d'un programme, il est plus intéressant que cette phase de tri puisse s'effectuer de façon automatique une fois le jeu de données fourni.
 
 
 \subsection{Choix de l'algorithme}
@@ -70,7 +70,7 @@ Ci-dessous les caractéristiques de la machine utilisée durant cette étude ain
 \end{itemize}
 \newpage
 \subsection{Problématiques restantes}
-Nous avons pu voir qu’il existe une multitude de méthodes applicables afin d’ordonner nos données, cependant la première problématique rencontrée pour cette implémentation a été le parsing des CV. Il est en effet possible de récupérer aisément les mots clés recherchés tels que « Sales » ou encore « Law » comme filière universitaire ou secteur d’activité professionnelle. La difficulté vient toutefois du fait qu’il est nécessaire de différencier dans quelle rubrique du CV, dans notre cas « Education » ou « Work experience » ces mots apparaissent. Ce type de découpage de document est en général utilisé par les services de recrutement d’entreprise lorsqu’un recruteur cherche un profil en fonction de mots clés ce qui fait que ces solutions sont propriétaires. Un projet open source disponible à l’adresse suivante :
+Nous avons pu voir qu’il existe une multitude de méthodes applicables afin d’ordonner nos données, cependant la première problématique rencontrée pour cette implémentation a été le traitement des CV. Il est en effet possible de récupérer aisément les mots clés recherchés tels que « Sales » ou encore « Law » comme filière universitaire ou secteur d’activité professionnelle. La difficulté vient toutefois du fait qu’il est nécessaire de différencier dans quelle rubrique du CV, dans notre cas « Education » ou « Work experience » ces mots apparaissent. Ce type de découpage de document est en général utilisé par les services de recrutement d’entreprise lorsqu’un recruteur cherche un profil en fonction de mots clés ce qui fait que ces solutions sont propriétaires. Un projet open source disponible à l’adresse suivante :
 \begin{itemize}
 \item \url{https://github.com/tramyardg/CVparser}
 \end{itemize}
@@ -83,5 +83,6 @@ Dans ce mémoire, nous avons présenté les différentes méthodes de clustering
 L'analyse de données étant un élément essentiel de domaine qui de nos jours possède une forte popularité tel que le Big data. Les méthodes de clustering utilisées dans ce domaine représentent une opportunité prometteuse pour notre problématique. En effet, celles-ci nous permettent dans un premier temps d'ordonner nos données afin de pouvoir en dégager les populations principales. Cette première étape de classification et représentation des données permet ensuite de faciliter les différents traitements.\\
 Dans la dernière partie, nous avons présenté les premières étapes d'une méthode visant à tirer profit de la classification obtenue à travers des processus de clustering. Plus particulièrement, nous avons eu recours à un clustering par partitionnement afin de pouvoir identifier les différentes populations. Cependant, cette méthode pose de nouvelles problématiques dans le cas de parcours contenant plusieurs filières et n'est par conséquent pas la plus idéale. De plus, il reste encore une partie conséquente de l'implémentation regardant l'extraction de texte à réaliser.
 \end{document}
+
 
 

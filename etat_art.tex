@@ -1,7 +1,7 @@
 \documentclass[memoire.tex]{subfiles}
 \begin{document}
 \chapter{État de l'art du clustering}
-Le terme clustering fait référence au concept de classification non supervisée faisant elle-même partie d'une plus grande famille qui est l'apprentissage non supervisé. À l'inverse de l'apprentissage supervisé qui nécessite des données déjà segmentées, le clustering vise quant à lui à déterminer une segmentation du jeu de données étudié. Dans ce cas, l'intervention humaine n'est pas nécessaire étant donné  que l'ordinateur détermine les différentes segmentations sans l'apport de variables cibles fournies à l'algorithme.
+Le terme clustering fait référence au concept de classification non supervisée. Ce concept fait lui-même partie d'une plus grande famille qu'est l'apprentissage non supervisé. À l'inverse de l'apprentissage supervisé qui nécessite des données déjà segmentées, le clustering vise quant à lui à déterminer une segmentation du jeu de données étudié. Dans ce cas, l'intervention humaine n'est pas nécessaire étant donné  que l'ordinateur détermine les différentes segmentations sans l'apport de variables cibles fournies à l'algorithme.
 L'analyse de cluster permet donc d'identifier des groupes de données relativement homogènes sur la base de leur similitude basée sur des caractéristiques données. Dans notre cas, cela peut par exemple être le type d'emploi occupé en fonction des filières suivies par d'anciens étudiants. Cependant, analyser différents profils d'individus peut représenter des difficultés techniques importantes, c'est pourquoi cette première section du document présentera les différentes solutions possibles pouvant apporter une réponse à cette difficulté de classification des parcours.
 \section{La préparation des données}
 Lorsqu'une segmentation basée sur des clusters est utilisée, il existe plusieurs formes de préparations de données pouvant aider à la formation des différents segments. 
@@ -18,7 +18,7 @@ L'utilisation de la standardisation est motivée par le fait que l'analyse de cl
 La modification de la distribution quant à elle est motivée par les mêmes problématiques que dans d'autres secteurs ayant recours aux statistiques, qui sont d'extrêmes variations par rapport à ce qui est considéré «normal» dans le cas étudié. Celles-ci entrainent des analyses pouvant induire en erreur. Par conséquent lorsque le poids des variables est modifié le but est d'identifier et supprimer leur longue traine qui correspond à un nombre de variables possédant des valeurs très supérieures ou inférieures à la moyenne.
 
 \subsection{La détection d'outliers}
-Dans des secteurs comme le Data-Mining, un outlier ou données aberrantes est une observation se distinguant des autres par le fait qu'il représente une valeur extrême. À noter que cette observation peut être soit anormalement élevée ou basse, ce critère étant dépendant du cas étudié. Par conséquent, une interprétation d'un jeu de données contenant un nombre important d'outliers peut amener à l'erreur. Ceci implique que la décision de considérer ou non les outliers doit être prise au moment de la construction du modèle de données. Il est à noter qu'en fonction du cas étudié, il n'existe pas de définition mathématique déterminant ce qu'est un outlier. Toutefois, les causes retenues pouvant expliquer leur présence sont : \begin{itemize}
+Dans des secteurs comme le Data-Mining, un outlier ou données aberrantes est une observation se distinguant des autres par le fait qu'il représente une valeur extrême. À noter que cette observation peut être soit anormalement élevée ou basse selon le cas étudié. Par conséquent, une interprétation d'un jeu de données contenant un nombre important d'outliers peut amener à l'erreur. Ceci implique que la décision de considérer ou non les outliers doit être prise au moment de la construction du modèle de données. Il est à remarquer qu'en fonction du cas étudié, il n'existe pas de définition mathématique déterminant ce qui constitue un outlier. Toutefois, les causes retenues pouvant expliquer leur présence sont : \begin{itemize}
 \item L'erreur humaine
 \item Une erreur lors de la transmission/transcription des données
 \item Un changement de procédure
@@ -42,7 +42,7 @@ Le choix d'une méthode de mesure de distance est une étape critique pour les m
 		\centerline{\includegraphics[scale=0.8]{img/euclidienne_distance.png}}
 		\caption{Distance euclidienne}
 	\end{figure}
-Dans cette méthode, la distance est calculée en effectuant le carré de l'ensemble des distances mises au carré entre les variables satisfaisant un critère donné.\\
+Dans cette méthode, la distance est calculée en effectuant le carré de l'ensemble des distances mises au carré pour toutes les variables satisfaisant un critère donné.\\
 La seconde méthode communément utilisée est la distance de Manhattan, appelée également «taxi-distance». Celle-ci, pour un point A et B de coordonnées respectives ($X_{a}$,$Y_{a}$) et ($X_{b}$,$Y_{b}$) est définie de la façon  suivante :\\
 	\begin{figure}[h!]
 		\centerline{\includegraphics[scale=0.8]{img/manhatan_distance.png}}
@@ -54,7 +54,7 @@ La seconde méthode communément utilisée est la distance de Manhattan, appelé
 
 \section{Les types de clusters}
 
-Le but du clustering étant de trouver des groupes d'objets présentant des similarités
+La finalité du clustering étant de trouver des groupes d'objets présentant des similarités
 définies en fonction du but recherché. Il existe toutefois une multitude de types de cluster qui seront étudiés au sein de cette section. Chacun sera présenté avec ses avantages et inconvénients en fonction de notre cas avant de statuer sur le type qui sera utilisé pour le reste de ce document.
 
 \subsection{Well-Separated}
@@ -66,7 +66,7 @@ Un cluster «well-separated» est un regroupement de points de telle façon à c
 
 \subsection{Graph-Based}
 Le graph-based cluster est utilisé dans les cas ou les données peuvent être représenté sous forme de graphe dont les nœuds sont des objets et les liens représentent les connexions entre ceux-ci. Dans cette situation, un cluster peut être défini comme un composant connecté.  C'est-à-dire un groupe d'objets liés les uns aux autres au sein du même groupe. Ce type de classification permet de visualiser facilement d'importants jeux de données.
-La théorie des graphes peut être utiliser afin d’apporter des informations plus précises sur le jeu de données en ce qui concerne les clusters, cliques et outliers. Une approche hiérarchique peut être employée à travers la création d’un arbre couvrant de poids minimal ou minimum spanning tree. Dans un contexte où un graph G est connexe, l’arbre est un sous-graphe connexe avec un poids minimal contenant tous les nœuds du graphe d’origine G et ne possédant pas de cycle. Il existe deux algorithmes permettant d’établir ce type d’arbre, l’algorithme de Prim et l’algorithme de Kruskal.
+La théorie des graphes peut être utilisée afin d’apporter des informations plus précises sur le jeu de données en ce qui concerne les clusters, cliques et outliers. Une approche hiérarchique peut être employée à travers la création d’un arbre couvrant de poids minimal ou minimum spanning tree. Dans un contexte où un graph G est connexe, l’arbre est un sous-graphe connexe avec un poids minimal contenant tous les nœuds du graphe d’origine G et ne possédant pas de cycle. Il existe deux algorithmes permettant d’établir ce type d’arbre, l’algorithme de Prim et l’algorithme de Kruskal.
 \subsubsection{L'algorithme de Prim}
 L’algorithme de Prim est un algorithme dit « glouton », c'est-à-dire qu’il va pour chaque étape effectuer un choix local jugé optimum. Cet algorithme ( figure …) va s’exécuter en choisissant un axe de poids minimal jusqu’à ce que tous les sommets aient été atteints. Il existe cependant une part d'indéterminisme, il est en effet possible que deux exécutions de cet algorithme renvoient chacun une solution différente. À noter que celle-ci sera tout de même optimale.
 	\begin{figure}[h!]
@@ -169,8 +169,8 @@ L’inconvénient de ces procédés est qu’ils possèdent une complexité $O_{
 
 \newpage
 \subsection{DBSCAN}
-DBSCAN est un algorithme basé sur le partitionnement de données. Cet algorithme utilise deux principaux paramètres qui sont la distance minimale entre deux points et le nombre de points minimum devant se trouver dans un rayon donné afin qu'ils soient considérés comme un cluster\cite{ref12}. Le choix d'une bonne mesure de la distance reste critique comme dans toute autre méthode de clustering. En effet, si la valeur choisie est trop petite, une partie des données risque d'être considérée en tant qu'\textit {outliers,} c'est-à-dire des observations peu fréquentes sortantes de la norme.\\
-L'algorithme DBSCAN sert dans des situations ou l'on cherche à déterminer des structures au sein d'un jeu de données. Celui-ci peut être exprimé en peudo-code.(figure 1.5). Du à sa popularité, cet algorithme est souvent directement importé à travers des libraires Python ou R.
+DBSCAN est un algorithme basé sur le partitionnement de données. Cet algorithme utilise deux principaux paramètres qui sont la distance minimale entre deux points et le nombre de points minimum devant se trouver dans un rayon donné afin qu'ils soient considérés comme un cluster\cite{ref12}. Le choix d'une bonne mesure de la distance reste critique comme dans toute autre méthode de clustering. En effet, si la valeur choisie est trop petite, une partie des données risque d'être considérée en tant qu'\textit {outlier.} C'est-à-dire des observations peu fréquentes sortantes de la norme.\\
+L'algorithme DBSCAN sert dans des situations ou l'on cherche à déterminer des structures au sein d'un jeu de données. Celui-ci peut être exprimé en peudo-code.(figure 1.5). Dû à sa popularité, cet algorithme est souvent directement importé à travers des libraires Python ou R.
 	\begin{figure}[h!]
 		\centerline{\includegraphics[scale=0.5]{img/dbscan.png}}
 		\caption{Algorithme DBSCAN}
@@ -186,7 +186,7 @@ Nous avons relevé dans un premier temps dans la figure ci-dessous les principau
 		\caption{Comparatif des méthodes de clustering}
 	\end{figure}\\
 Avec ce premier tableau, nous pouvons éliminer des méthodes potentiellement utilisables, la méthode conceptuelle. Celle-ci traitant difficilement les données numériques, n'est par conséquent pas adaptée à notre cas. La méthode par mélange de modèles est également non utilisable, la qualité des résultats étant très fortement liée aux hypothèses formulées par un utilisateur en début de traitement.
-Afin de pouvoir choisir entre les deux méthodes restantes, la plus adaptée à notre cas, nous nous baserons sur les mêmes critères que ceux énoncés dans l'introduction . C'est-à-dire \begin{itemize}
+Afin de pouvoir choisir entre les deux méthodes restantes, la plus adaptée à notre cas, nous nous baserons sur les mêmes critères que ceux énoncés dans l'introduction . C'est-à-dire :\begin{itemize}
 \item Capacité de la méthode à traiter un jeu de données numérique
 \item La difficulté d'implémentation
 \item La sensibilité au bruit
@@ -200,4 +200,5 @@ La figure ci-dessous présente la méthode hiérarchique et par partitionnement 
 	\end{figure}\\
 Comme on peut l'observer dans ce tableau, les deux méthodes possèdent toutes deux une implémentation simple. Toutefois, l'approche hiérarchique est fortement dépendante de la méthode utilisée. Tandis que la méthode par partitionnement est applicable sur de larges jeux de données sans être sensible à une méthodologie extérieure particulière en plus de posséder la même facilité d'implémentation. Par conséquent, la méthode choisie pour notre implémentation sera l'approche par partitionnement.
 \end{document}
+
 
